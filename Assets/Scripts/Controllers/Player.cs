@@ -38,6 +38,18 @@ public class Player : MonoBehaviour
         //called in update
         float xMovement = Input.GetAxisRaw("Horizontal");
         float yMovement = Input.GetAxisRaw("Vertical");
+
+        //running left
+        if (xMovement < 0)
+        {
+            this.transform.rotation = Quaternion.Euler(0f, 180f, 0f);
+        }
+        //running right
+        else if (xMovement > 0)
+        {
+            this.transform.rotation = Quaternion.Euler(0f, 0f, 0f);
+        }
+
         moveAmount.x = xMovement;
         moveAmount.y = yMovement;
         moveAmount = moveAmount.normalized* speed;
