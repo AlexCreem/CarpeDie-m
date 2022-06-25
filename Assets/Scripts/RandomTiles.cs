@@ -57,6 +57,11 @@ public class RandomTiles : MonoBehaviour
                     topMap.SetTile(new Vector3Int(-x + width / 2, -y + height / 2, 0), topTile);
                     botMap.SetTile(new Vector3Int(-x + width / 2, -y + height / 2, 0), botTile);
                 }
+                //this else
+                else
+                {
+                    botMap.SetTile(new Vector3Int(-x + width / 2, -y + height / 2, 0), botTile);
+                }
             }
         }
 

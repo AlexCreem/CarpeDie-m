@@ -6317,3 +6317,1326 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1695.675696 seconds.
+  path: Assets/Scenes/RandomGenerationTest.unity
+  artifactKey: Guid(44c891586bf4da54db81fa97e5a5ad8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/RandomGenerationTest.unity using Guid(44c891586bf4da54db81fa97e5a5ad8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99208bace33bfdafbf79bc627ecdb3bf') in 0.021168 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 455.008834 seconds.
+  path: Assets/Scripts/RandomTiles.cs
+  artifactKey: Guid(9de7e752c5f18774d845931d8340ca9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RandomTiles.cs using Guid(9de7e752c5f18774d845931d8340ca9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de5b6e3bdd7990676c4fb316f65767b4') in 0.014972 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006007 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.78 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.037 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1038ms)
+		BeginReloadAssembly (149ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (41ms)
+		EndReloadAssembly (820ms)
+			LoadAssemblies (118ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (273ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (308ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (87ms)
+				ProcessInitializeOnLoadAttributes (196ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.76 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2252 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 125.1 MB.
+System memory in use after: 125.3 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2782.
+Total: 5.873000 ms (FindLiveObjects: 1.996300 ms CreateObjectMapping: 0.823300 ms MarkObjects: 2.988500 ms  DeleteObjects: 0.060800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 95.798245 seconds.
+  path: Assets/Scripts/RandomTiles.cs
+  artifactKey: Guid(9de7e752c5f18774d845931d8340ca9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RandomTiles.cs using Guid(9de7e752c5f18774d845931d8340ca9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24f76900d78633e4d65022beba3872c1') in 0.010149 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 328.293262 seconds.
+  path: Assets/Scripts/RandomTiles.cs
+  artifactKey: Guid(9de7e752c5f18774d845931d8340ca9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RandomTiles.cs using Guid(9de7e752c5f18774d845931d8340ca9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '963fe802a5307362d4b81823dc027858') in 0.004971 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 741.328796 seconds.
+  path: Assets/Scripts/RandomTiles.cs
+  artifactKey: Guid(9de7e752c5f18774d845931d8340ca9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RandomTiles.cs using Guid(9de7e752c5f18774d845931d8340ca9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af0ddc37f5ea48a710c6d9558d38f1e3') in 0.005299 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 359.668080 seconds.
+  path: Assets/Scripts/RandomTiles.cs
+  artifactKey: Guid(9de7e752c5f18774d845931d8340ca9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RandomTiles.cs using Guid(9de7e752c5f18774d845931d8340ca9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a76d3905c09f9bbe424d7665f67f1a0d') in 0.005843 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 236.242307 seconds.
+  path: Assets/Scripts/RandomTiles.cs
+  artifactKey: Guid(9de7e752c5f18774d845931d8340ca9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RandomTiles.cs using Guid(9de7e752c5f18774d845931d8340ca9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd513ca015031a25e09df964f5385f2e5') in 0.005340 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 28.750629 seconds.
+  path: Assets/Scripts/RandomTiles.cs
+  artifactKey: Guid(9de7e752c5f18774d845931d8340ca9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RandomTiles.cs using Guid(9de7e752c5f18774d845931d8340ca9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52fab84152334787ac1d5997f88fb9d3') in 0.005660 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 101.321791 seconds.
+  path: Assets/Scripts/RandomTiles.cs
+  artifactKey: Guid(9de7e752c5f18774d845931d8340ca9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RandomTiles.cs using Guid(9de7e752c5f18774d845931d8340ca9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47d1694b665dfa656105d49f6154a742') in 0.005027 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005938 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.91 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.037 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1037ms)
+		BeginReloadAssembly (125ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (37ms)
+		EndReloadAssembly (851ms)
+			LoadAssemblies (114ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (291ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (314ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (91ms)
+				ProcessInitializeOnLoadAttributes (194ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.78 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2252 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 125.1 MB.
+System memory in use after: 125.3 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2784.
+Total: 2.843000 ms (FindLiveObjects: 0.188500 ms CreateObjectMapping: 0.105600 ms MarkObjects: 2.485800 ms  DeleteObjects: 0.061900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 315.120552 seconds.
+  path: Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_264.asset
+  artifactKey: Guid(777aacc20a00af441b5e183e536dc362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_264.asset using Guid(777aacc20a00af441b5e183e536dc362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e1d1d580a9b31a4a5535dc41eba28fd') in 0.054581 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000388 seconds.
+  path: Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_276.asset
+  artifactKey: Guid(4cdc7e7079d63284b94778ffa96b6311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_276.asset using Guid(4cdc7e7079d63284b94778ffa96b6311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7be53132628c1f970ef4cb8632028bdf') in 0.011916 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000603 seconds.
+  path: Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_273.asset
+  artifactKey: Guid(2e0d0c38cbaf34e48b3b3abe24315d49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_273.asset using Guid(2e0d0c38cbaf34e48b3b3abe24315d49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdfdbf75209b9f838e8512b9a1450f17') in 0.011369 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000385 seconds.
+  path: Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_269.asset
+  artifactKey: Guid(9701c42c85dfbf846901b926f9c9fd4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_269.asset using Guid(9701c42c85dfbf846901b926f9c9fd4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efd102e8d333f9094f1232a29a61779b') in 0.014725 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000343 seconds.
+  path: Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_277.asset
+  artifactKey: Guid(733e1db5f77b6284eb74b9738bb6d8e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_277.asset using Guid(733e1db5f77b6284eb74b9738bb6d8e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81c755e506dd933331356567ab14a63d') in 0.013585 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000357 seconds.
+  path: Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_285.asset
+  artifactKey: Guid(f94a007b95dc41448a14badac0c82cda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_285.asset using Guid(f94a007b95dc41448a14badac0c82cda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '542bdd1fcb9ef567815532f03edd9482') in 0.013544 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_282.asset
+  artifactKey: Guid(34a223d8d020c694bbfae6e64934fd16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_282.asset using Guid(34a223d8d020c694bbfae6e64934fd16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66b58cbf36b7b33e1d6399ce6723b15d') in 0.014352 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_267.asset
+  artifactKey: Guid(23067d542e7aa474aac4b00f1548a78c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_267.asset using Guid(23067d542e7aa474aac4b00f1548a78c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59aa270a7fe82d5c7590934a6376d371') in 0.016089 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000367 seconds.
+  path: Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_265.asset
+  artifactKey: Guid(7feeee61e8e81144f8e73cb024df2921) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_265.asset using Guid(7feeee61e8e81144f8e73cb024df2921) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5fbfdfd637695b91ebbafd3e1dc9f91') in 0.013782 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000333 seconds.
+  path: Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_271.asset
+  artifactKey: Guid(de96694865872a746af938a4a020dcce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_271.asset using Guid(de96694865872a746af938a4a020dcce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6abce77e1390c1e955ff35ff30e7e022') in 0.010776 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000364 seconds.
+  path: Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_272.asset
+  artifactKey: Guid(2fd5278f34a363b47a4f0a94abf331b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_272.asset using Guid(2fd5278f34a363b47a4f0a94abf331b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7610733fdc285e3ccedf7e13899eb2a') in 0.018135 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000428 seconds.
+  path: Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_275.asset
+  artifactKey: Guid(34e9ed64f5a2b724db295095cf59a7a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_275.asset using Guid(34e9ed64f5a2b724db295095cf59a7a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '121a49e65ce4d33b5e55b81a3c67fa91') in 0.011739 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000393 seconds.
+  path: Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_270.asset
+  artifactKey: Guid(a52ce78dcf115c34ca50fd2e800d6fc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_270.asset using Guid(a52ce78dcf115c34ca50fd2e800d6fc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8adc51930237bc6e1efe44b8144bd1d') in 0.018394 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_286.asset
+  artifactKey: Guid(52ef7b1671419ea4ebf3a07130a9024c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_286.asset using Guid(52ef7b1671419ea4ebf3a07130a9024c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97fc171d1e1b7ceb0c3c63993b4f46db') in 0.012463 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000329 seconds.
+  path: Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_283.asset
+  artifactKey: Guid(344a4b6019e52554398cb755432d17fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_283.asset using Guid(344a4b6019e52554398cb755432d17fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e56a7b0d2de741a60b82c12375c467c7') in 0.012594 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000324 seconds.
+  path: Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_287.asset
+  artifactKey: Guid(06129d6b29b39a74781ba899666d6b15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_287.asset using Guid(06129d6b29b39a74781ba899666d6b15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ade354c0a07bd490dfcd095adcb7823') in 0.012563 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000365 seconds.
+  path: Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_289.asset
+  artifactKey: Guid(3ef180e66a0a8fe40b4b0aee1da0eb92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_289.asset using Guid(3ef180e66a0a8fe40b4b0aee1da0eb92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dabe674f6db0035b3561c702d302976') in 0.012751 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000347 seconds.
+  path: Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_291.asset
+  artifactKey: Guid(cfa20e9791777224c9d6d8f23d0f185b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_291.asset using Guid(cfa20e9791777224c9d6d8f23d0f185b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08b38ef2399b0e623e70716f90125529') in 0.014145 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000341 seconds.
+  path: Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_278.asset
+  artifactKey: Guid(5c30515566245e4429ba76b19c22f545) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_278.asset using Guid(5c30515566245e4429ba76b19c22f545) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2647425d32b4654185847efaf6d8e65') in 0.014224 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_281.asset
+  artifactKey: Guid(9659bae5255c68149a7b369dc28bb405) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_281.asset using Guid(9659bae5255c68149a7b369dc28bb405) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fac9810ab002938245a2585e13b40fe') in 0.012687 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_279.asset
+  artifactKey: Guid(330162b1f6fd68e42b5edc78e9e5ccae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_279.asset using Guid(330162b1f6fd68e42b5edc78e9e5ccae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46eb5cee1f7bd59bb81a75ffea761abd') in 0.011521 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_274.asset
+  artifactKey: Guid(d3a63eba8728c5e488aa78b6b1b59f43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_274.asset using Guid(d3a63eba8728c5e488aa78b6b1b59f43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '207e330c08f92f8768f77508a3167a9f') in 0.013510 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_284.asset
+  artifactKey: Guid(1d06fe0424a66cd48be5e1efbe868ff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_284.asset using Guid(1d06fe0424a66cd48be5e1efbe868ff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c8194c5c4c25ae3159c0437b81716d8') in 0.013087 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_266.asset
+  artifactKey: Guid(cab4f633d3e394b4d9cc2fc30d22ad7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_266.asset using Guid(cab4f633d3e394b4d9cc2fc30d22ad7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9488aec878c163fb5c37ba52771475e') in 0.016119 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000342 seconds.
+  path: Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_290.asset
+  artifactKey: Guid(803971228941c494191b5b0a043c41fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_290.asset using Guid(803971228941c494191b5b0a043c41fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b60e741cfafc8665cc5bdadf8e262d2') in 0.011918 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000317 seconds.
+  path: Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_268.asset
+  artifactKey: Guid(7bc178b35d4303741a26bbf14a93a924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_268.asset using Guid(7bc178b35d4303741a26bbf14a93a924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8590995d5c64f72b37138fb7634d593b') in 0.013307 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_288.asset
+  artifactKey: Guid(6fd044fb0f60e4b4fb27eec0f120b20f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_288.asset using Guid(6fd044fb0f60e4b4fb27eec0f120b20f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e3d3eb489b45093c06ba1e6c76c8dc8') in 0.013128 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000344 seconds.
+  path: Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_280.asset
+  artifactKey: Guid(28a38313178a7bf459837d43cfdb7dba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_280.asset using Guid(28a38313178a7bf459837d43cfdb7dba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f94674d4696b33db4d47fbccbc7b589c') in 0.018120 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.616527 seconds.
+  path: Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_292.asset
+  artifactKey: Guid(325b45a52768c8c48910f767654e3413) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_292.asset using Guid(325b45a52768c8c48910f767654e3413) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a004eb1e35e1e823e0be527a699404c5') in 0.013486 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_298.asset
+  artifactKey: Guid(37dcda0f98f25744397c188052b47fd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_298.asset using Guid(37dcda0f98f25744397c188052b47fd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68ccc3fed95e872b8c6856494e752ae3') in 0.011256 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000318 seconds.
+  path: Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_293.asset
+  artifactKey: Guid(6f2ee17574f24dc478569a6e8255333a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_293.asset using Guid(6f2ee17574f24dc478569a6e8255333a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d99372d05638990eb61293db14db0b1') in 0.011724 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000365 seconds.
+  path: Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_301.asset
+  artifactKey: Guid(7f4fd1b0db15ac34499f5c29f52cc16a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_301.asset using Guid(7f4fd1b0db15ac34499f5c29f52cc16a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67caf97cae6b893599f6e62ee462ed08') in 0.012853 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000378 seconds.
+  path: Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_300.asset
+  artifactKey: Guid(6d2505e0ee555564d915395acbbd947b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_300.asset using Guid(6d2505e0ee555564d915395acbbd947b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dcb76c4a50160a9a81fb60d2402db9b') in 0.013252 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000365 seconds.
+  path: Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_307.asset
+  artifactKey: Guid(222254abaa49c3846a542c26ea2fcc50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_307.asset using Guid(222254abaa49c3846a542c26ea2fcc50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b269d43ee4c8345ebe7c0c3de16c2f7') in 0.016369 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000367 seconds.
+  path: Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_309.asset
+  artifactKey: Guid(8b32fdeb33647c94ca97e14f0cb3c077) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_309.asset using Guid(8b32fdeb33647c94ca97e14f0cb3c077) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '410e382cf0cedc527a51c543651d32fa') in 0.013301 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_294.asset
+  artifactKey: Guid(0eaa75a1713c1b84390042dc42d6767d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_294.asset using Guid(0eaa75a1713c1b84390042dc42d6767d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7071083b4ac1d747daaa12ccd5335b21') in 0.012824 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_319.asset
+  artifactKey: Guid(6b8615e1c9e89404f8485d0e845a621b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_319.asset using Guid(6b8615e1c9e89404f8485d0e845a621b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '125a800f4ea7f878e9f901068afc7cc1') in 0.018713 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_314.asset
+  artifactKey: Guid(b32e8ac76a558964585d8af673c8eaca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_314.asset using Guid(b32e8ac76a558964585d8af673c8eaca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50d6f95f67f8297ba340de3709f0632e') in 0.014604 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_315.asset
+  artifactKey: Guid(0e7f158d5abfee2498a359e6e2718d06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_315.asset using Guid(0e7f158d5abfee2498a359e6e2718d06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95e17a3bf5ecb414eafb62ac0fca9efe') in 0.012043 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_318.asset
+  artifactKey: Guid(7792be16919906642ad9ce5e00d2efc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_318.asset using Guid(7792be16919906642ad9ce5e00d2efc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '800f57ee060eda7195ad01bb62e25ec3') in 0.014234 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_316.asset
+  artifactKey: Guid(5c9d048900f8dd541af097347b28c51a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_316.asset using Guid(5c9d048900f8dd541af097347b28c51a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e447578b06bc0c1c321d80edb5e9ddd') in 0.015781 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_313.asset
+  artifactKey: Guid(612422d01b3dba841ac63845a5628240) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_313.asset using Guid(612422d01b3dba841ac63845a5628240) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28fdf45899c82ff8e404d1c37cbc6638') in 0.012152 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_328.asset
+  artifactKey: Guid(f5975a658ebaf8b4ba9d1c4e0c97fe09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_328.asset using Guid(f5975a658ebaf8b4ba9d1c4e0c97fe09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da474a4c5f5366f76c74b607b1c92190') in 0.012143 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_323.asset
+  artifactKey: Guid(c33fde729182f4046b1675e03d9a4df9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_323.asset using Guid(c33fde729182f4046b1675e03d9a4df9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '644401c25d09277dc46c05836d3cbd22') in 0.014092 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_329.asset
+  artifactKey: Guid(5d4afddcf8d3c3345829b796e2ff6815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_329.asset using Guid(5d4afddcf8d3c3345829b796e2ff6815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dad05a60fd8e13f59d772fe6fa7df5fd') in 0.013985 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000338 seconds.
+  path: Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_327.asset
+  artifactKey: Guid(7cbd336bb09451b4f8e37a05781926a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_327.asset using Guid(7cbd336bb09451b4f8e37a05781926a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e26d91dced04bc71a94f6c89d037c21') in 0.014920 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_324.asset
+  artifactKey: Guid(78409743fa5e8214ab7bff40b306140d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_324.asset using Guid(78409743fa5e8214ab7bff40b306140d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3448ff52d87c823a51e96d8cb7e1f1d') in 0.012274 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000335 seconds.
+  path: Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_320.asset
+  artifactKey: Guid(737f17c8e5a2b924d9767a323b706637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_320.asset using Guid(737f17c8e5a2b924d9767a323b706637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2f9f82e65812199b6e34098de3d0cba') in 0.014222 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_325.asset
+  artifactKey: Guid(a8d78b88ddb9ff440928c19566da78a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_325.asset using Guid(a8d78b88ddb9ff440928c19566da78a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87d09a25c0009f60ab57ab5bb69d2350') in 0.013143 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_322.asset
+  artifactKey: Guid(87a566a11b71e2d4fb24932e4a76ad23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_322.asset using Guid(87a566a11b71e2d4fb24932e4a76ad23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '360c51372bb8b979dc0e9ee12cb4b57d') in 0.012636 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_331.asset
+  artifactKey: Guid(9d6d6768585218349bc63227e6c51e6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_331.asset using Guid(9d6d6768585218349bc63227e6c51e6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47943eba07c52008c143f073de51a594') in 0.015890 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_317.asset
+  artifactKey: Guid(87dd8850c40107846a6b57c982582d6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_317.asset using Guid(87dd8850c40107846a6b57c982582d6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b34d4afb4cce05ef0dba0909c02e67e6') in 0.011971 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_305.asset
+  artifactKey: Guid(c90bd14da434b9b43bbec426791991e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_305.asset using Guid(c90bd14da434b9b43bbec426791991e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd961bc1f9de52848e7877a5d90bbd3d9') in 0.015362 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000372 seconds.
+  path: Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_310.asset
+  artifactKey: Guid(1b4aa381d40b3474ea29c3567ce2adf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_310.asset using Guid(1b4aa381d40b3474ea29c3567ce2adf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d68b5f7d2a78aeb673c2b9e4870b8d3') in 0.017290 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000313 seconds.
+  path: Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_303.asset
+  artifactKey: Guid(57cdcfef34bc3b645a8b2a062f84a5d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_303.asset using Guid(57cdcfef34bc3b645a8b2a062f84a5d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e025e286246afaf7d11a7e49191c3fe') in 0.018604 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_311.asset
+  artifactKey: Guid(aa8c2f4c26092d549a23b3c89fa18383) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_311.asset using Guid(aa8c2f4c26092d549a23b3c89fa18383) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3188cebf5bde8a1daaa280d54e20d5ae') in 0.011601 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_332.asset
+  artifactKey: Guid(b380aa7ba7630a54387842865055deb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_332.asset using Guid(b380aa7ba7630a54387842865055deb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41890d0b79e31fbbaa6656e719268957') in 0.013346 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_299.asset
+  artifactKey: Guid(c3277cd2f2d5e2a469f0e5e0d5128f02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_299.asset using Guid(c3277cd2f2d5e2a469f0e5e0d5128f02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '491952d08336ae65476f3190d1032d58') in 0.014044 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000318 seconds.
+  path: Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_296.asset
+  artifactKey: Guid(473e4440e50f98d46b79f05195ed46ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_296.asset using Guid(473e4440e50f98d46b79f05195ed46ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bdb6bdd71c84ca024e694b05fb85c8b') in 0.013183 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_321.asset
+  artifactKey: Guid(c7fa1a4cdace3094d9354f4b13799079) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_321.asset using Guid(c7fa1a4cdace3094d9354f4b13799079) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2a1c1cef166009f31c28cdaed45fe0b') in 0.018793 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000308 seconds.
+  path: Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_295.asset
+  artifactKey: Guid(f651e1e367ee12a44accd5d447224ba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_295.asset using Guid(f651e1e367ee12a44accd5d447224ba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71b699e11df47e800b06e2c3db5ddc32') in 0.016236 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000350 seconds.
+  path: Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_308.asset
+  artifactKey: Guid(7093449013581234db2fadc08f493742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_308.asset using Guid(7093449013581234db2fadc08f493742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10d2b969e2b3653fc9f2b76dbe1afc0c') in 0.013166 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_333.asset
+  artifactKey: Guid(1d834d336e3a48540935a75871b42aaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_333.asset using Guid(1d834d336e3a48540935a75871b42aaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b11d87672b59a84886911ee3eda80007') in 0.015332 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_330.asset
+  artifactKey: Guid(0f894cc23f3c08348bc81cf23092a79b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_330.asset using Guid(0f894cc23f3c08348bc81cf23092a79b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '381cd2465f95f96c274ddcd47323c800') in 0.011995 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_326.asset
+  artifactKey: Guid(143a8b497bbc9b449b12d3a3822e6700) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_326.asset using Guid(143a8b497bbc9b449b12d3a3822e6700) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0beec0ad53065c49d08fdb07f068449e') in 0.014072 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_304.asset
+  artifactKey: Guid(2998dbabe01b7304986c3e959e5da3da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_304.asset using Guid(2998dbabe01b7304986c3e959e5da3da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb0a0596e282358386425892549940a7') in 0.017245 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_306.asset
+  artifactKey: Guid(4a57aa28d9a9a9b46a6236433d549104) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_306.asset using Guid(4a57aa28d9a9a9b46a6236433d549104) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edd1367eac72e278d05d0b954ea62257') in 0.019768 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_302.asset
+  artifactKey: Guid(6932617e0ba370e499af4555381d8234) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_302.asset using Guid(6932617e0ba370e499af4555381d8234) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18db18cf2930fa9a1be11614172c720b') in 0.011621 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_297.asset
+  artifactKey: Guid(13baaa7451da89245843cae38ba50d45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_297.asset using Guid(13baaa7451da89245843cae38ba50d45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80101a3c7d1f6dacebcdf1069d0628c2') in 0.015473 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_312.asset
+  artifactKey: Guid(047fb239a25860e459c601fd97863733) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_312.asset using Guid(047fb239a25860e459c601fd97863733) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5e1d40ff5d5ee8d6550e47ce403ab2e') in 0.013413 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.696376 seconds.
+  path: Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_334.asset
+  artifactKey: Guid(49111d37e2b02c341ae91f5848e786cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_334.asset using Guid(49111d37e2b02c341ae91f5848e786cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c97744e7e3200603cfbf50318a352234') in 0.014735 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000344 seconds.
+  path: Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_342.asset
+  artifactKey: Guid(c814f4dcb11387248a5b49dd419a735c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_342.asset using Guid(c814f4dcb11387248a5b49dd419a735c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2da0fe0552a30dd376763228146b57ed') in 0.011894 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000317 seconds.
+  path: Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_344.asset
+  artifactKey: Guid(7929c71bfd4a5ef4d9e0284ea6522b37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_344.asset using Guid(7929c71bfd4a5ef4d9e0284ea6522b37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0c6f99b6c5c19bd42f8479caa92e2e4') in 0.015458 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000337 seconds.
+  path: Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_339.asset
+  artifactKey: Guid(c93e560be9f761e47aca68c36d1a8a77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_339.asset using Guid(c93e560be9f761e47aca68c36d1a8a77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '598a305da095d0776d684eccaa953f6f') in 0.014117 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_347.asset
+  artifactKey: Guid(84735200de3d0c14eaf4e920d21a0a07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_347.asset using Guid(84735200de3d0c14eaf4e920d21a0a07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47c07562fe1d9bf34de2ffafe0f42027') in 0.012592 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000362 seconds.
+  path: Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_345.asset
+  artifactKey: Guid(12d352abb3a92da499f0c3dfab20f2d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_345.asset using Guid(12d352abb3a92da499f0c3dfab20f2d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '862a81154b001211fe08f4a055a6d296') in 0.014621 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000490 seconds.
+  path: Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_340.asset
+  artifactKey: Guid(ef6f731f46a8a3646a79f58efaa5fdcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_340.asset using Guid(ef6f731f46a8a3646a79f58efaa5fdcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd29281c3a5dc13886811f96f6dbe091') in 0.014464 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_338.asset
+  artifactKey: Guid(7ca29aa1183760b4eb6de21ba4f03493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_338.asset using Guid(7ca29aa1183760b4eb6de21ba4f03493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ea5f117c352c866966c07fee365bd6a') in 0.013974 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_335.asset
+  artifactKey: Guid(886932e61d701924894ab8464a9697d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_335.asset using Guid(886932e61d701924894ab8464a9697d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4761701c1dc15f092e3663b764dd3915') in 0.012257 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_337.asset
+  artifactKey: Guid(21f1b980db863fa41a66df058b125b6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_337.asset using Guid(21f1b980db863fa41a66df058b125b6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89a6868c9aee7388bd039810655bb459') in 0.012714 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_343.asset
+  artifactKey: Guid(47b54889d68037f48a9f3932a9c440c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_343.asset using Guid(47b54889d68037f48a9f3932a9c440c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43f448d3a297da7d59e267038e429bd4') in 0.012281 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000414 seconds.
+  path: Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_336.asset
+  artifactKey: Guid(94262cf2238af8340b87ef61b86e2136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_336.asset using Guid(94262cf2238af8340b87ef61b86e2136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da117a3665f4e65091113215edb754ee') in 0.014009 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_341.asset
+  artifactKey: Guid(817ff6d49c95af3468005af9af9a3898) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_341.asset using Guid(817ff6d49c95af3468005af9af9a3898) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4184fe080089009168a62c40bb83196a') in 0.012802 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_346.asset
+  artifactKey: Guid(e30a8fe9475256f42b70f34cf602df16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_346.asset using Guid(e30a8fe9475256f42b70f34cf602df16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd9b990ba84ba9744fd37d5ae4b2c588') in 0.011571 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.503545 seconds.
+  path: Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_348.asset
+  artifactKey: Guid(2ca1cfa26b6928a4db40bc5ad2f02d03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_348.asset using Guid(2ca1cfa26b6928a4db40bc5ad2f02d03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59583faa0f3318ac7b7f828d0ff98785') in 0.020813 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000437 seconds.
+  path: Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_356.asset
+  artifactKey: Guid(bbac5821ba2f38d40b1c275fe1df737a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_356.asset using Guid(bbac5821ba2f38d40b1c275fe1df737a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '847bda816d66f344491772b4e0d04bdc') in 0.012330 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_349.asset
+  artifactKey: Guid(188789dccbdac134fa02ca85aea4302a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_349.asset using Guid(188789dccbdac134fa02ca85aea4302a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3834ff8d67ef80d46f669d6ecedf08e') in 0.012179 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000368 seconds.
+  path: Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_353.asset
+  artifactKey: Guid(3b47633aee5555e4d9932fb258590ce1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_353.asset using Guid(3b47633aee5555e4d9932fb258590ce1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74412b840f3ae45e349983b9360a2b53') in 0.013970 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_352.asset
+  artifactKey: Guid(4244e99277237cb4b9f9c2b5931f0a6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_352.asset using Guid(4244e99277237cb4b9f9c2b5931f0a6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9027bc6caf6e3fca3a7d4f666dc8ed3c') in 0.013444 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000564 seconds.
+  path: Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_361.asset
+  artifactKey: Guid(adae9c728c9a47c4194c87b535f35e39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_361.asset using Guid(adae9c728c9a47c4194c87b535f35e39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e27163beca0047ce24cc0d09a1f3162') in 0.012844 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_357.asset
+  artifactKey: Guid(c788eedc5df3a994280f77b5e5cb7a4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_357.asset using Guid(c788eedc5df3a994280f77b5e5cb7a4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cafda0d9e63efc77a5d97255b9d3846') in 0.019092 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_354.asset
+  artifactKey: Guid(7ecb728a81a42f44fbd599d0d82a285e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_354.asset using Guid(7ecb728a81a42f44fbd599d0d82a285e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db2d9bbd88b7da1791a7aac1feb716a4') in 0.017316 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000590 seconds.
+  path: Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_350.asset
+  artifactKey: Guid(910e6f63b35ef0e488c2bc912ecd511f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_350.asset using Guid(910e6f63b35ef0e488c2bc912ecd511f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f730721ec24dc9018307015bbe580cd1') in 0.011877 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000358 seconds.
+  path: Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_358.asset
+  artifactKey: Guid(7608ae6f07f52e547a6d7a3c1b3409aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_358.asset using Guid(7608ae6f07f52e547a6d7a3c1b3409aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c14ed1bb819e239539ef75da2960fa2d') in 0.017841 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_359.asset
+  artifactKey: Guid(d9258af6d3094e443bd10941a88d33b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_359.asset using Guid(d9258af6d3094e443bd10941a88d33b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99dac3ebf3bdc0cb4af877bcce636624') in 0.011586 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_351.asset
+  artifactKey: Guid(fe0ab3d6925b67043b1d559190528011) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_351.asset using Guid(fe0ab3d6925b67043b1d559190528011) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13bf682aaa42d01b852bf6f41a5b5c4c') in 0.013366 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_360.asset
+  artifactKey: Guid(e233e82586c01634687ed2357fc1f74f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_360.asset using Guid(e233e82586c01634687ed2357fc1f74f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4a5277164daa4b7ece86fb8672b0a7f') in 0.013905 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000445 seconds.
+  path: Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_355.asset
+  artifactKey: Guid(ba3ab1c7bcd100a4582d093d5c37d705) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_355.asset using Guid(ba3ab1c7bcd100a4582d093d5c37d705) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfbe65e96cd4ed3fc042a3130b9ab729') in 0.016113 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.594172 seconds.
+  path: Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_362.asset
+  artifactKey: Guid(8546ff8e1dd3bb444abd698ab8b60c45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_362.asset using Guid(8546ff8e1dd3bb444abd698ab8b60c45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad6a98b2dc15b63d0a1f7108c54900d9') in 0.013044 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_369.asset
+  artifactKey: Guid(022449622e44c8a4784d8a83f97b3516) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_369.asset using Guid(022449622e44c8a4784d8a83f97b3516) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44e900d98cea3f17eaaa0789caa21735') in 0.012577 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000335 seconds.
+  path: Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_368.asset
+  artifactKey: Guid(3b5b74111beae3a44987bebda7de0e0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_368.asset using Guid(3b5b74111beae3a44987bebda7de0e0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae2a54c103fc35d90fed962aa4bd1aac') in 0.016945 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000376 seconds.
+  path: Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_367.asset
+  artifactKey: Guid(407a758f424a84d43a922d8976a5771a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_367.asset using Guid(407a758f424a84d43a922d8976a5771a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a82c8b6bf3869c3205f2a071fbc825b') in 0.013607 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000339 seconds.
+  path: Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_366.asset
+  artifactKey: Guid(cdb03f8025b78bd468e70d04b28c70cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_366.asset using Guid(cdb03f8025b78bd468e70d04b28c70cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e43aaa70bcd4dd74cdd3b31872c8bf87') in 0.011438 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000432 seconds.
+  path: Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_375.asset
+  artifactKey: Guid(91f133dafa0c1aa41bc55d1a5db06e18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_375.asset using Guid(91f133dafa0c1aa41bc55d1a5db06e18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa568bb8f4539120c2749ccf3cfb85f3') in 0.012535 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000310 seconds.
+  path: Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_374.asset
+  artifactKey: Guid(ea613cb8a94f50c4fb390aeef95cd0c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_374.asset using Guid(ea613cb8a94f50c4fb390aeef95cd0c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '967c2dad3f13e008826186c936b7492a') in 0.012369 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000317 seconds.
+  path: Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_373.asset
+  artifactKey: Guid(69c1fad301f70b74e8a848b3e7bda4fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_373.asset using Guid(69c1fad301f70b74e8a848b3e7bda4fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '876566a7b9ad625e7bc151e5e0c3bed8') in 0.015236 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000323 seconds.
+  path: Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_372.asset
+  artifactKey: Guid(3a5931459bd084a44951d7b83ecba789) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_372.asset using Guid(3a5931459bd084a44951d7b83ecba789) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25677708f9ce84ec53c679e3f2d80f67') in 0.017831 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000433 seconds.
+  path: Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_365.asset
+  artifactKey: Guid(8f272bb7602bd0e4f80239e31f7afc8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_365.asset using Guid(8f272bb7602bd0e4f80239e31f7afc8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b10ce754d8bdad79067868b28d474f19') in 0.013927 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_371.asset
+  artifactKey: Guid(f8dd915131d74d34bb21c31466ac10be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_371.asset using Guid(f8dd915131d74d34bb21c31466ac10be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e25b0e5194c33e3b29d36b7209f4eab2') in 0.019167 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000417 seconds.
+  path: Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_370.asset
+  artifactKey: Guid(0a455c4cb40d8114f80fd40bb01c4ab8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_370.asset using Guid(0a455c4cb40d8114f80fd40bb01c4ab8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82e558f67c23658a1389c12b81484691') in 0.015227 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000460 seconds.
+  path: Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_364.asset
+  artifactKey: Guid(e9111a57dbcfcd3419eb4f66c7435ad4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_364.asset using Guid(e9111a57dbcfcd3419eb4f66c7435ad4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f761117d4d68513e3c1235f90919f51') in 0.011469 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000343 seconds.
+  path: Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_363.asset
+  artifactKey: Guid(5ed40a8f354fbea4fbc9b3606b5f9d8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_363.asset using Guid(5ed40a8f354fbea4fbc9b3606b5f9d8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3fe6dba224bea523fa82782f808e816') in 0.012979 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.724843 seconds.
+  path: Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_376.asset
+  artifactKey: Guid(ab176056f0c301b4e9448b4ec10800ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_376.asset using Guid(ab176056f0c301b4e9448b4ec10800ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b89669fcfae2e4ef5e99892204a8f395') in 0.013907 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000362 seconds.
+  path: Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_382.asset
+  artifactKey: Guid(8b5a47df9cb654a439cfc022bfe6ca4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_382.asset using Guid(8b5a47df9cb654a439cfc022bfe6ca4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '563d8f1c994fa98d9ad12b81fde09f3e') in 0.013520 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000346 seconds.
+  path: Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_389.asset
+  artifactKey: Guid(d3883146f4045954494fefb1c77b06a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_389.asset using Guid(d3883146f4045954494fefb1c77b06a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b27f2068b433ee6ca9c8945512f480ff') in 0.012634 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000338 seconds.
+  path: Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_383.asset
+  artifactKey: Guid(b9512af39ebcdc34cae8df832fe694cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_383.asset using Guid(b9512af39ebcdc34cae8df832fe694cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '552875d641cfaa1cf689066e2090ce05') in 0.014901 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_386.asset
+  artifactKey: Guid(cbeebaa544b7c704e9f37d256640640e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_386.asset using Guid(cbeebaa544b7c704e9f37d256640640e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a86aab3688eaff56bf1452245097c6e3') in 0.015986 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000362 seconds.
+  path: Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_385.asset
+  artifactKey: Guid(f76611ad93b340640b307440f42131d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_385.asset using Guid(f76611ad93b340640b307440f42131d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38495d38f82c28ae556190073641284f') in 0.013770 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_379.asset
+  artifactKey: Guid(61b05be62b202624f9555819a9addd3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_379.asset using Guid(61b05be62b202624f9555819a9addd3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb000fd109a71362f221b49c751d4813') in 0.013332 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000435 seconds.
+  path: Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_380.asset
+  artifactKey: Guid(b9b5942df3d11864ab494b00450ac173) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_380.asset using Guid(b9b5942df3d11864ab494b00450ac173) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e937f06a051572437e14d8ddc68ab8f') in 0.014009 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_387.asset
+  artifactKey: Guid(edf6e1b3d389bb74396eae320a95371e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_387.asset using Guid(edf6e1b3d389bb74396eae320a95371e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '519606270d8663f0af022080dbff6e47') in 0.011708 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000395 seconds.
+  path: Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_377.asset
+  artifactKey: Guid(38812a7bbf5697e44915a19d50ba8f96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_377.asset using Guid(38812a7bbf5697e44915a19d50ba8f96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d6bb01bda8d9936631d4612fc5c6f30') in 0.012818 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_378.asset
+  artifactKey: Guid(d46132308cb5d694c99fcf78bccf7fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_378.asset using Guid(d46132308cb5d694c99fcf78bccf7fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3152e5ff79042c4d935fd7b1f7236c1') in 0.013389 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_381.asset
+  artifactKey: Guid(7768cba428b673a459fc76d5e56ba096) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_381.asset using Guid(7768cba428b673a459fc76d5e56ba096) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2080bc54e7b6931417a69ce9422921c') in 0.012121 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_384.asset
+  artifactKey: Guid(918cad66ad17b7b4c8f23b2c2795315e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_384.asset using Guid(918cad66ad17b7b4c8f23b2c2795315e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcd4a3cb8913884e9596b6ab93750e25') in 0.012113 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000355 seconds.
+  path: Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_388.asset
+  artifactKey: Guid(5ebce1c0dad9e8d409d3b076bf444875) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gif/Super_Retro_Collection/Resources/Environments/TilePalette/Tiles/SR_Dungeon_02_388.asset using Guid(5ebce1c0dad9e8d409d3b076bf444875) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '312fd67c4d4c894385951daf76903612') in 0.012925 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008675 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.19 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.269 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1270ms)
+		BeginReloadAssembly (194ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (52ms)
+		EndReloadAssembly (989ms)
+			LoadAssemblies (173ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (334ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (369ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (106ms)
+				ProcessInitializeOnLoadAttributes (232ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.50 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2252 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 125.1 MB.
+System memory in use after: 125.3 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2787.
+Total: 3.681600 ms (FindLiveObjects: 0.185000 ms CreateObjectMapping: 0.101400 ms MarkObjects: 3.339700 ms  DeleteObjects: 0.054500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006867 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.06 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.035 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1035ms)
+		BeginReloadAssembly (117ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (852ms)
+			LoadAssemblies (108ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (285ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (323ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (91ms)
+				ProcessInitializeOnLoadAttributes (204ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.00 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2252 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 125.2 MB.
+System memory in use after: 125.4 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2789.
+Total: 2.946100 ms (FindLiveObjects: 0.179100 ms CreateObjectMapping: 0.098700 ms MarkObjects: 2.609800 ms  DeleteObjects: 0.057300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006339 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.04 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.090 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1090ms)
+		BeginReloadAssembly (120ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (900ms)
+			LoadAssemblies (114ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (283ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (349ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (99ms)
+				ProcessInitializeOnLoadAttributes (218ms)
+				ProcessInitializeOnLoadMethodAttributes (13ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.88 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2252 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 125.2 MB.
+System memory in use after: 125.4 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2791.
+Total: 3.325500 ms (FindLiveObjects: 0.206900 ms CreateObjectMapping: 0.101800 ms MarkObjects: 2.958500 ms  DeleteObjects: 0.057200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005766 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.77 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.969 seconds
+Domain Reload Profiling:
+	ReloadAssembly (969ms)
+		BeginReloadAssembly (112ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (797ms)
+			LoadAssemblies (102ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (272ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (293ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (83ms)
+				ProcessInitializeOnLoadAttributes (182ms)
+				ProcessInitializeOnLoadMethodAttributes (12ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.78 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2252 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 125.2 MB.
+System memory in use after: 125.4 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2793.
+Total: 2.871900 ms (FindLiveObjects: 0.177100 ms CreateObjectMapping: 0.103000 ms MarkObjects: 2.535000 ms  DeleteObjects: 0.055800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006361 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.99 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.996 seconds
+Domain Reload Profiling:
+	ReloadAssembly (996ms)
+		BeginReloadAssembly (114ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (817ms)
+			LoadAssemblies (105ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (264ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (312ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (89ms)
+				ProcessInitializeOnLoadAttributes (198ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.80 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2252 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 125.2 MB.
+System memory in use after: 125.4 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2795.
+Total: 2.951300 ms (FindLiveObjects: 0.170700 ms CreateObjectMapping: 0.100000 ms MarkObjects: 2.626300 ms  DeleteObjects: 0.053400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006025 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.81 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.959 seconds
+Domain Reload Profiling:
+	ReloadAssembly (960ms)
+		BeginReloadAssembly (111ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (791ms)
+			LoadAssemblies (99ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (280ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (287ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (82ms)
+				ProcessInitializeOnLoadAttributes (179ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.89 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2252 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 125.1 MB.
+System memory in use after: 125.3 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2797.
+Total: 3.064600 ms (FindLiveObjects: 0.199100 ms CreateObjectMapping: 0.090700 ms MarkObjects: 2.716500 ms  DeleteObjects: 0.057400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006199 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.37 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.221 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1221ms)
+		BeginReloadAssembly (137ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (38ms)
+		EndReloadAssembly (1009ms)
+			LoadAssemblies (125ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (337ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (383ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (120ms)
+				ProcessInitializeOnLoadAttributes (229ms)
+				ProcessInitializeOnLoadMethodAttributes (12ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.84 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2252 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 125.2 MB.
+System memory in use after: 125.4 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2799.
+Total: 2.984200 ms (FindLiveObjects: 0.177500 ms CreateObjectMapping: 0.102900 ms MarkObjects: 2.634900 ms  DeleteObjects: 0.065500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
