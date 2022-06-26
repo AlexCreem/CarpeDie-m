@@ -142,15 +142,16 @@ public class RandomTiles : MonoBehaviour
         }
     }
     // Update is called once per frame
-    void Update()
+    private void Awake()
     {
-        if (Input.GetMouseButtonDown(0))
-        {
             simulate(reps);
-        }
+        
+        
+        /* clear map
         if (Input.GetMouseButtonDown(1))
         {
             clearMap(true);
         }
+        */
     }
 }
