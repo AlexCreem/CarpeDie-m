@@ -349,6 +349,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 5
   maxHealth: 5
+  animator: {fileID: 465578403}
 --- !u!4 &465578399
 Transform:
   m_ObjectHideFlags: 0

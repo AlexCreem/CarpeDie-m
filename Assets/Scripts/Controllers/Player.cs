@@ -12,6 +12,7 @@ public class Player : MonoBehaviour
     [Header ("Player Properties")]
     public float speed;
     public int maxHealth;
+    public Animator animator;
 
     // Start is called before the first frame update
     void Start()
@@ -39,6 +40,7 @@ public class Player : MonoBehaviour
         float xMovement = Input.GetAxisRaw("Horizontal");
         float yMovement = Input.GetAxisRaw("Vertical");
 
+        /*commented out for animations to handle direction
         //running left
         if (xMovement < 0)
         {
@@ -49,9 +51,12 @@ public class Player : MonoBehaviour
         {
             this.transform.rotation = Quaternion.Euler(0f, 0f, 0f);
         }
-
+        */
         moveAmount.x = xMovement;
         moveAmount.y = yMovement;
+        animator.SetFloat("Horizontal", moveAmount.x);
+        animator.SetFloat("Vertical", moveAmount.y);
+        animator.SetFloat("Speed", moveAmount.sqrMagnitude);
         moveAmount = moveAmount.normalized* speed;
     }
     private void move()
