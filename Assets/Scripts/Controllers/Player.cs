@@ -8,6 +8,9 @@ public class Player : MonoBehaviour
     private Vector2 moveAmount;
     private Rigidbody2D rb;
     private int health;
+    private float initSpeed;
+
+    private float slow;
 
     [Header ("Player Properties")]
     public float speed;
@@ -22,6 +25,7 @@ public class Player : MonoBehaviour
         health = maxHealth;
         speed = 5;
         moveAmount = Vector2.zero;
+        initSpeed = speed;
     }
 
     // Update is called once per frame
@@ -33,6 +37,7 @@ public class Player : MonoBehaviour
     private void FixedUpdate()
     {
         move();
+        slow = 1;
     }
     private void getMovement()
     {
@@ -62,7 +67,7 @@ public class Player : MonoBehaviour
     private void move()
     {
         //actually moves rigid body so called in fixed update
-        rb.MovePosition(rb.position + moveAmount * Time.deltaTime);
+        rb.MovePosition(rb.position + moveAmount * Time.deltaTime *slow);
     }
     public void takeDamage(int amount)
     {
@@ -71,5 +76,14 @@ public class Player : MonoBehaviour
         {
             Debug.Log("Game Over");
         }
+    }
+    public void slowSpeed(float slowAmount)
+    {
+        this.slow = slowAmount;
+        
+    }
+    public void resetSpeed()
+    {
+        this.speed = initSpeed;
     }
 }
