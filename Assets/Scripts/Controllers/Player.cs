@@ -17,6 +17,13 @@ public class Player : MonoBehaviour
     public int maxHealth;
     public Animator animator;
 
+    private float activeMoveSpeed;
+    public float dashSpeed;
+    public float dashLength = 0.5f;
+    public float dashCooldown = 1f;
+    private float dashCounter;
+    private float dashCoolCounter;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -26,12 +33,36 @@ public class Player : MonoBehaviour
         speed = 5;
         moveAmount = Vector2.zero;
         initSpeed = speed;
+        activeMoveSpeed = speed;
     }
 
     // Update is called once per frame
     void Update()
     {
         getMovement();
+
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            if(dashCoolCounter <= 0 && dashCounter <= 0)
+            {
+                activeMoveSpeed = dashSpeed;
+                dashCounter = dashLength;
+            }
+        }
+        if (dashCounter > 0)
+        {
+            dashCounter -= Time.deltaTime;
+
+            if(dashCounter <= 0)
+            {
+                activeMoveSpeed = speed;
+                dashCoolCounter = dashCooldown;
+            }
+        }
+        if (dashCoolCounter > 0)
+        {
+            dashCoolCounter -= Time.deltaTime;
+        }
     }
 
     private void FixedUpdate()
@@ -62,7 +93,7 @@ public class Player : MonoBehaviour
         animator.SetFloat("Horizontal", moveAmount.x);
         animator.SetFloat("Vertical", moveAmount.y);
         animator.SetFloat("Speed", moveAmount.sqrMagnitude);
-        moveAmount = moveAmount.normalized* speed;
+        moveAmount = moveAmount.normalized* activeMoveSpeed;
     }
     private void move()
     {
