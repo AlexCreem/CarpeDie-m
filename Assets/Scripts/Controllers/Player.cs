@@ -7,7 +7,7 @@ public class Player : MonoBehaviour
 {
     private Vector2 moveAmount;
     private Rigidbody2D rb;
-    private int health;
+    public int health;
     private float initSpeed;
 
     private float slow;
@@ -28,7 +28,7 @@ public class Player : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-        maxHealth = 3;
+        maxHealth = 100;
         health = maxHealth;
         speed = 5;
         moveAmount = Vector2.zero;
@@ -106,6 +106,7 @@ public class Player : MonoBehaviour
         if (health <= 0)
         {
             Debug.Log("Game Over");
+            //OTHER END GAME / DYING STUFF HERE
         }
     }
     public void slowSpeed(float slowAmount)

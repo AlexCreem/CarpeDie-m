@@ -6,28 +6,39 @@ using UnityEngine.AI;
 public class EnemyController : MonoBehaviour
 {
     public float speed = 3f;
-    public Transform target;
+    private Transform target;
+    public GameObject player;
     public float damage;
     public float health;
     private Vector2 direction;
     public Rigidbody2D rb;
-    /*
-    private void OnTriggerEnter2D(Collider2D collision)
+
+    public float attackTimer;
+    public int attackDamage;
+    private float attackCoolCounter;
+
+    private void Start()
+    {
+        player = GameObject.Find("Player");
+        target = GameObject.FindGameObjectWithTag("Player").transform;
+    }
+    private void OnTriggerStay2D(Collider2D collision)
     {
         if (collision.gameObject.tag == "Player")
         {
-            target = collision.transform;
+            if (attackCoolCounter <= 0)
+            {
+                player.GetComponent<Player>().takeDamage(attackDamage);
+                attackCoolCounter = attackTimer;
+                Debug.Log("player should take damage");
+            }
+            if (attackCoolCounter > 0)
+            {
+                attackCoolCounter -= Time.deltaTime;
+            }
         }
     }
 
-    private void OnTriggerExit2D(Collider2D collision)
-    {
-        if (collision.gameObject.tag == "Player")
-        {
-            target = null;
-        }
-    }
-    */
     private void FixedUpdate()
     {
         if ((target.position - this.transform.position).magnitude < 10)
