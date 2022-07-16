@@ -476,6 +476,12 @@ MonoBehaviour:
   dashSpeed: 15
   dashLength: 0.5
   dashCooldown: 3
+  weapon: {fileID: 465578402}
+  rapidLength: 0
+  rapidCooldown: 0
+  baseAttackSpeed: 0.2
+  immuneLength: 0
+  immuneCooldown: 0
 --- !u!4 &465578399
 Transform:
   m_ObjectHideFlags: 0

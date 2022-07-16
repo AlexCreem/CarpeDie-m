@@ -34,6 +34,12 @@ public class Player : MonoBehaviour
     private float rapidCoolCounter;
     public float baseAttackSpeed;
 
+    public float immuneLength;
+    public float immuneCooldown;
+    private float immuneCounter;
+    private float immuneCoolCounter;
+    private bool immune;
+
 
     // Start is called before the first frame update
     void Start()
@@ -45,6 +51,7 @@ public class Player : MonoBehaviour
         moveAmount = Vector2.zero;
         initSpeed = speed;
         activeMoveSpeed = speed;
+        immune = false;
         currentScene = SceneManager.GetActiveScene().buildIndex;
     }
 
@@ -109,6 +116,28 @@ public class Player : MonoBehaviour
         if (currentScene >= 3)
         {
             //stage 3 ability
+            if (Input.GetKeyDown(KeyCode.E))
+            {
+                if (immuneCoolCounter <= 0 && immuneCounter <= 0)
+                {
+                    immune = true;
+                    immuneCounter = immuneLength;
+                }
+            }
+            if (immuneCounter > 0)
+            {
+                immuneCounter -= Time.deltaTime;
+
+                if (immuneCounter <= 0)
+                {
+                    immune = false;
+                    immuneCoolCounter = immuneCooldown;
+                }
+            }
+            if (immuneCoolCounter > 0)
+            {
+                immuneCoolCounter -= Time.deltaTime;
+            }
         }
     }
 
@@ -149,11 +178,14 @@ public class Player : MonoBehaviour
     }
     public void takeDamage(int amount)
     {
-        health -= amount;
-        if (health <= 0)
+        if (!immune)
         {
-            Debug.Log("Game Over");
-            //OTHER END GAME / DYING STUFF HERE
+            health -= amount;
+            if (health <= 0)
+            {
+                Debug.Log("Game Over");
+                //OTHER END GAME / DYING STUFF HERE
+            }
         }
     }
     public void slowSpeed(float slowAmount)

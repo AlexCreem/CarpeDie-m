@@ -1245,7 +1245,9 @@ MonoBehaviour:
   weapon: {fileID: 1649193247}
   rapidLength: 4
   rapidCooldown: 8
-  baseAttackSpeed: 0.25
+  baseAttackSpeed: 0.2
+  immuneLength: 0
+  immuneCooldown: 0
 --- !u!4 &1649193251
 Transform:
   m_ObjectHideFlags: 0
