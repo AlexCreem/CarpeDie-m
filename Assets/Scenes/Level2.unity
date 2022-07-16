@@ -1185,6 +1185,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   firePoint: {fileID: 721619273}
   bulletPrefab: {fileID: 1836309659862853915, guid: b14b3303fbb6e684d8614cfec31b4d2d, type: 3}
+  attackTimer: 0.2
 --- !u!70 &1649193248
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -1241,6 +1242,10 @@ MonoBehaviour:
   dashSpeed: 15
   dashLength: 0.5
   dashCooldown: 3
+  weapon: {fileID: 0}
+  rapidLength: 0
+  rapidCooldown: 0
+  baseAttackSpeed: 0
 --- !u!4 &1649193251
 Transform:
   m_ObjectHideFlags: 0

@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 
 public class Player : MonoBehaviour
@@ -24,6 +25,16 @@ public class Player : MonoBehaviour
     private float dashCounter;
     private float dashCoolCounter;
 
+    private int currentScene;
+
+    public Weapon weapon;
+    public float rapidLength;
+    public float rapidCooldown;
+    private float rapidCounter;
+    private float rapidCoolCounter;
+    public float baseAttackSpeed;
+
+
     // Start is called before the first frame update
     void Start()
     {
@@ -34,6 +45,7 @@ public class Player : MonoBehaviour
         moveAmount = Vector2.zero;
         initSpeed = speed;
         activeMoveSpeed = speed;
+        currentScene = SceneManager.GetActiveScene().buildIndex;
     }
 
     // Update is called once per frame
@@ -41,6 +53,8 @@ public class Player : MonoBehaviour
     {
         getMovement();
 
+
+        //stage 1 ability
         if (Input.GetKeyDown(KeyCode.Space))
         {
             if(dashCoolCounter <= 0 && dashCounter <= 0)
@@ -62,6 +76,39 @@ public class Player : MonoBehaviour
         if (dashCoolCounter > 0)
         {
             dashCoolCounter -= Time.deltaTime;
+        }
+
+        if (currentScene >= 2)
+        {
+            //stage 2 ability
+            if (Input.GetKeyDown(KeyCode.Mouse1))
+            {
+                if (rapidCoolCounter <= 0 && rapidCounter <= 0)
+                {
+                    weapon.setAttackSpeed(0);
+                    rapidCounter = rapidLength;
+                }
+            }
+            if (rapidCounter > 0)
+            {
+                rapidCounter -= Time.deltaTime;
+
+                if (rapidCounter <= 0)
+                {
+                    weapon.setAttackSpeed(baseAttackSpeed);
+                    rapidCoolCounter = rapidCooldown;
+                }
+            }
+            if (rapidCoolCounter > 0)
+            {
+                rapidCoolCounter -= Time.deltaTime;
+            }
+
+        }
+
+        if (currentScene >= 3)
+        {
+            //stage 3 ability
         }
     }
 

@@ -543,6 +543,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   firePoint: {fileID: 758633881}
   bulletPrefab: {fileID: 1836309659862853915, guid: b14b3303fbb6e684d8614cfec31b4d2d, type: 3}
+  attackTimer: 0.2
 --- !u!95 &465578403
 Animator:
   serializedVersion: 3
