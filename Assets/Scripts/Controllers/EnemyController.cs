@@ -22,7 +22,7 @@ public class EnemyController : MonoBehaviour
     {
         player = GameObject.Find("Player");
         target = GameObject.FindGameObjectWithTag("Player").transform;
-        lookingLeft = true;
+        lookingLeft = false;
     }
     private void OnTriggerStay2D(Collider2D collision)
     {

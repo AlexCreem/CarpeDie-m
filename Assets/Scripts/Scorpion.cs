@@ -29,7 +29,7 @@ public class Scorpion : MonoBehaviour
         player = GameObject.Find("Player");
         target = GameObject.FindGameObjectWithTag("Player").transform;
         canShoot = true;
-        lookingLeft = true;
+        lookingLeft = false;
     }
 
     private void FixedUpdate()
