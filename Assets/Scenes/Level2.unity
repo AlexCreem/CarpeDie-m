@@ -1242,10 +1242,10 @@ MonoBehaviour:
   dashSpeed: 15
   dashLength: 0.5
   dashCooldown: 3
-  weapon: {fileID: 0}
-  rapidLength: 0
-  rapidCooldown: 0
-  baseAttackSpeed: 0
+  weapon: {fileID: 1649193247}
+  rapidLength: 4
+  rapidCooldown: 8
+  baseAttackSpeed: 0.25
 --- !u!4 &1649193251
 Transform:
   m_ObjectHideFlags: 0
