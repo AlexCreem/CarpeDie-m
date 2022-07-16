@@ -11,6 +11,7 @@ public class EnemyShot : MonoBehaviour
     void Start()
     {
         Destroy(this.gameObject, dieTime);
+        player = GameObject.Find("Player").GetComponent<Player>();
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
