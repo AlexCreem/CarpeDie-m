@@ -7,17 +7,32 @@ public class Weapon : MonoBehaviour
     public Transform firePoint;
     public GameObject bulletPrefab;
 
+    public float attackTimer;
+    private float attackCoolCounter;
+
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetButtonDown("Fire1"))
+        if (attackCoolCounter <= 0)
         {
-            Shoot();
+            if (Input.GetButtonDown("Fire1"))
+            {
+                Shoot();
+                attackCoolCounter = attackTimer;
+            }
+        }
+        if (attackCoolCounter > 0)
+        {
+            attackCoolCounter -= Time.deltaTime;
         }
     }
 
     void Shoot()
     {
         Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
+    }
+    public void setAttackSpeed(float attackSpeed)
+    {
+        attackTimer = attackSpeed;
     }
 }
