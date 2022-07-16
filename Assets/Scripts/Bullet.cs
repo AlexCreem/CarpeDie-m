@@ -7,6 +7,8 @@ public class Bullet : MonoBehaviour
     public float speed = 10f;
     public Rigidbody2D rb;
     public int damage = 20;
+    public float dieTime;
+    public GameObject dieObj;
     void Start()
     {
         Vector3 shootDirection = Input.mousePosition;
@@ -15,6 +17,8 @@ public class Bullet : MonoBehaviour
         shootDirection = shootDirection - transform.position;
         rb.velocity = shootDirection.normalized * speed;
         //rb.velocity = transform.right * speed;
+        //StartCoroutine(CountDownTimer());
+        Destroy(this.gameObject, dieTime);
     }
 
     private void OnTriggerEnter2D(Collider2D collision)

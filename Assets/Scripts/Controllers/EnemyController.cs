@@ -12,6 +12,7 @@ public class EnemyController : MonoBehaviour
     public float health;
     private Vector2 direction;
     public Rigidbody2D rb;
+    private bool lookingLeft;
 
     public float attackTimer;
     public int attackDamage;
@@ -21,6 +22,7 @@ public class EnemyController : MonoBehaviour
     {
         player = GameObject.Find("Player");
         target = GameObject.FindGameObjectWithTag("Player").transform;
+        lookingLeft = true;
     }
     private void OnTriggerStay2D(Collider2D collision)
     {
@@ -48,8 +50,8 @@ public class EnemyController : MonoBehaviour
         }
     }
     private void Update()
-    { 
-        
+    {
+
         if (target != null)
         {
             getMovement();
@@ -58,8 +60,21 @@ public class EnemyController : MonoBehaviour
             //probably a better way to do this but leaving for now due to using 2 colliders
             //transform.parent.gameObject.transform.position = Vector2.MoveTowards(transform.position, target.position, step);
             //rb.MovePosition(rb.position + direction.normalized * Time.deltaTime);
-            
+
         }
+        if (player.transform.position.x < transform.position.x && lookingLeft)
+        {
+            flip();
+        }
+        if (player.transform.position.x > transform.position.x && !lookingLeft)
+        {
+            flip();
+        }
+    }
+    private void flip()
+    {
+        transform.Rotate(0, 180, 0);
+        lookingLeft = !lookingLeft;
     }
     private void getMovement()
     {
