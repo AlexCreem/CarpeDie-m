@@ -94,6 +94,7 @@ GameObject:
   - component: {fileID: 7592614962374596348}
   - component: {fileID: 7592614962374596349}
   - component: {fileID: 7592614962374596350}
+  - component: {fileID: 2838861387961779681}
   m_Layer: 0
   m_Name: Scorpion
   m_TagString: Untagged
@@ -173,6 +174,44 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!68 &2838861387961779681
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7592614962374596344}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -0.5, y: 0}
+  - {x: 0.76888466, y: 0.5625496}
+  - {x: 0.3378296, y: 0.77088547}
+  - {x: -0.15592575, y: 0.4588852}
+  - {x: -0.48153877, y: 0.61831665}
+  - {x: -0.26694107, y: 1.6322136}
+  - {x: 0.8862839, y: 1.2520943}
+  - {x: 1.1841526, y: 0.4333992}
+  - {x: 1.683918, y: -0.1851387}
+  - {x: 1.6732407, y: -0.9754753}
+  - {x: 0.5910492, y: -1.4425507}
+  - {x: -0.08070564, y: -1.0677834}
+  - {x: -0.59111595, y: -0.87828445}
+  - {x: -1.3942585, y: -1.1778603}
+  - {x: -1.8388634, y: -0.71907806}
+  - {x: -1.6169758, y: 0.040035248}
+  - {x: -1.232954, y: 0.30580902}
+  - {x: -0.7145691, y: 0.19054794}
+  m_AdjacentStartPoint: {x: 0, y: 0}
+  m_AdjacentEndPoint: {x: 0, y: 0}
+  m_UseAdjacentStartPoint: 0
+  m_UseAdjacentEndPoint: 0
 --- !u!1 &7592614963257947414
 GameObject:
   m_ObjectHideFlags: 0
