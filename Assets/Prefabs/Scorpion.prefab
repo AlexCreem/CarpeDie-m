@@ -95,6 +95,7 @@ GameObject:
   - component: {fileID: 7592614962374596349}
   - component: {fileID: 7592614962374596350}
   - component: {fileID: 2838861387961779681}
+  - component: {fileID: 2888252495770194516}
   m_Layer: 0
   m_Name: Scorpion
   m_TagString: Untagged
@@ -173,7 +174,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!68 &2838861387961779681
 EdgeCollider2D:
   m_ObjectHideFlags: 0
@@ -212,6 +213,32 @@ EdgeCollider2D:
   m_AdjacentEndPoint: {x: 0, y: 0}
   m_UseAdjacentStartPoint: 0
   m_UseAdjacentEndPoint: 0
+--- !u!61 &2888252495770194516
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7592614962374596344}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.019899368, y: 0.052850723}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.4599304, y: 3.1355858}
+  m_EdgeRadius: 0
 --- !u!1 &7592614963257947414
 GameObject:
   m_ObjectHideFlags: 0
