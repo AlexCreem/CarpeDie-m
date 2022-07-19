@@ -1108,7 +1108,7 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1729698384}
+      - m_Target: {fileID: 498044206}
         m_TargetAssemblyTypeName: SettingsScript, Assembly-CSharp
         m_MethodName: SetQuality
         m_Mode: 0
@@ -1393,10 +1393,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 498044205}
-  - component: {fileID: 498044206}
   - component: {fileID: 498044207}
+  - component: {fileID: 498044206}
   m_Layer: 5
-  m_Name: MainMenu
+  m_Name: Settings
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1443,9 +1443,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 498044204}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b90f128f63926f54ab8be588099ad0e8, type: 3}
+  m_Script: {fileID: 11500000, guid: 6a56fe914ea34f845a027495148cc741, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioMixer: {fileID: 24100000, guid: e92b4e974a8d59e499dced9e2b0e857e, type: 2}
+  resultionDropdown: {fileID: 1460875325}
 --- !u!114 &498044207
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1580,7 +1582,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1729698384}
+      - m_Target: {fileID: 498044206}
         m_TargetAssemblyTypeName: SettingsScript, Assembly-CSharp
         m_MethodName: Back
         m_Mode: 1
@@ -2226,10 +2228,10 @@ MonoBehaviour:
   onValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1729698384}
+      - m_Target: {fileID: 498044206}
         m_TargetAssemblyTypeName: SettingsScript, Assembly-CSharp
         m_MethodName: SetFullscreen
-        m_Mode: 0
+        m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -2483,7 +2485,7 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1729698384}
+      - m_Target: {fileID: 498044206}
         m_TargetAssemblyTypeName: SettingsScript, Assembly-CSharp
         m_MethodName: SetVolume
         m_Mode: 0
@@ -3496,8 +3498,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 09c9a83a1e67e2e46810a4c2e65306f8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioMixer: {fileID: 24100000, guid: e92b4e974a8d59e499dced9e2b0e857e, type: 2}
-  resultionDropdown: {fileID: 1460875325}
 --- !u!114 &1729698385
 MonoBehaviour:
   m_ObjectHideFlags: 0
