@@ -10,6 +10,7 @@ public class Scorpion : MonoBehaviour
     public float damage;
     public float health;
     private Vector2 direction;
+    public float playerDetectRange;
     public Rigidbody2D rb;
     public float range;
     public GameObject projectile;
@@ -34,7 +35,7 @@ public class Scorpion : MonoBehaviour
 
     private void FixedUpdate()
     {
-        if ((target.position - this.transform.position).magnitude < 10)
+        if ((target.position - this.transform.position).magnitude < playerDetectRange)
         {
             move();
             //this.transform.Translate(direction.normalized * speed * Time.deltaTime, Space.World);
