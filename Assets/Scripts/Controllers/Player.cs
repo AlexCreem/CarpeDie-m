@@ -8,7 +8,7 @@ public class Player : MonoBehaviour
 {
     private Vector2 moveAmount;
     private Rigidbody2D rb;
-    public int health;
+    public static int health;
     private float initSpeed;
 
     private float slow;
@@ -196,5 +196,9 @@ public class Player : MonoBehaviour
     public void resetSpeed()
     {
         this.speed = initSpeed;
+    }
+
+    public static string getPlayerHP(){
+        return "HP: " + health;
     }
 }
