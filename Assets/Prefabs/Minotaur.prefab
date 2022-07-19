@@ -187,6 +187,11 @@ MonoBehaviour:
   damage: 30
   health: 300
   rb: {fileID: 4118140128965212763}
+  detectRange: 15
+  chargeRange: 10
+  chargeSpeed: 15
+  chargeLength: 4
+  chargeCooldown: 4
   attackTimer: 1
   attackDamage: 1
 --- !u!114 &4118140128965212761
@@ -202,3 +207,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 300
+  isBoss: 0
+  levelCompleteUI: {fileID: 0}
