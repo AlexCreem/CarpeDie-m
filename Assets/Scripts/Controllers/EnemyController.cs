@@ -18,6 +18,8 @@ public class EnemyController : MonoBehaviour
     public int attackDamage;
     private float attackCoolCounter;
 
+    public float detectPlayerRange;
+
     private void Start()
     {
         player = GameObject.Find("Player");
@@ -43,7 +45,7 @@ public class EnemyController : MonoBehaviour
 
     private void FixedUpdate()
     {
-        if ((target.position - this.transform.position).magnitude < 10)
+        if ((target.position - this.transform.position).magnitude < detectPlayerRange)
         {
             move();
             //this.transform.Translate(direction.normalized * speed * Time.deltaTime, Space.World);

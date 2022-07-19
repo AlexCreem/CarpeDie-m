@@ -5,6 +5,8 @@ using UnityEngine;
 public class Enemy : MonoBehaviour
 {
     public int health = 100;
+    public bool isBoss;
+    public GameObject levelCompleteUI;
 
     public void TakeDamage(int damage)
     {
@@ -17,6 +19,11 @@ public class Enemy : MonoBehaviour
     }
     void Die()
     {
+        if (isBoss)
+        {
+            levelCompleteUI.SetActive(true);
+            Time.timeScale = 0f;
+        }
         Destroy(this.gameObject);
         //other death effects
     }
