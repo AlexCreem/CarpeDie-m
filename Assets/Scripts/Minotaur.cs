@@ -21,6 +21,7 @@ public class Minotaur : MonoBehaviour
     public float chargeCooldown = 1f;
     private float chargeCounter;
     private float chargeCoolCounter;
+    private bool lookingLeft;
 
     public float attackTimer;
     public int attackDamage;
@@ -32,6 +33,12 @@ public class Minotaur : MonoBehaviour
         target = GameObject.FindGameObjectWithTag("Player").transform;
         isCharging = false;
         activeMoveSpeed = speed;
+        lookingLeft = false;
+    }
+    private void flip()
+    {
+        transform.Rotate(0, 180, 0);
+        lookingLeft = !lookingLeft;
     }
 
     private void FixedUpdate()
@@ -39,10 +46,19 @@ public class Minotaur : MonoBehaviour
         float distance = (target.position - this.transform.position).magnitude;
         if (distance < detectRange && distance > chargeRange)
         {
+            if (player.transform.position.x < transform.position.x && lookingLeft)
+            {
+                flip();
+            }
+            if (player.transform.position.x > transform.position.x && !lookingLeft)
+            {
+                flip();
+            }
+            getMovement();
             move();
             //this.transform.Translate(direction.normalized * speed * Time.deltaTime, Space.World);
         }
-        else if (distance < chargeRange)
+        else if (distance < chargeRange && chargeCoolCounter <= 0)
         {
             //charge();
             if (isCharging == false)
@@ -52,6 +68,7 @@ public class Minotaur : MonoBehaviour
 
             activeMoveSpeed = chargeSpeed;
             chargeCounter = chargeLength;
+
 
             if (chargeCounter > 0)
             {
@@ -63,6 +80,7 @@ public class Minotaur : MonoBehaviour
                     activeMoveSpeed = speed;
                     chargeCoolCounter = chargeCooldown;
                     isCharging = false;
+                    getMovement();
                 }
             }
             if (chargeCoolCounter > 0)
@@ -72,10 +90,15 @@ public class Minotaur : MonoBehaviour
             move();
         }
     }
-    private void charge()
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-     
-
+        if (collision.gameObject.tag == "Player")
+        {
+            if (isCharging)
+            {
+                player.GetComponent<Player>().takeDamage(attackDamage);
+            }
+        }
     }
     private void Update()
     {
@@ -91,6 +114,7 @@ public class Minotaur : MonoBehaviour
 
         }
     }
+    /*
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.tag == "Bullet")
@@ -107,6 +131,7 @@ public class Minotaur : MonoBehaviour
             }
         }
     }
+    */
     private void getMovement()
     {
         direction = (target.transform.position - this.transform.position).normalized * activeMoveSpeed;
