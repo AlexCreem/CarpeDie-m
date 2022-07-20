@@ -1452,7 +1452,10 @@ RectTransform:
   - {fileID: 3169476}
   - {fileID: 1689704247}
 <<<<<<< HEAD
+<<<<<<< HEAD
   - {fileID: 1148964863}
+=======
+>>>>>>> 776169209d223ff2a5e53c32aeec91c847c5b830
 =======
 >>>>>>> 776169209d223ff2a5e53c32aeec91c847c5b830
   m_Father: {fileID: 0}
@@ -2262,6 +2265,7 @@ CanvasRenderer:
   m_GameObject: {fileID: 1119088351}
   m_CullTransparentMesh: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1 &1148964862
 GameObject:
   m_ObjectHideFlags: 0
@@ -2367,6 +2371,8 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1148964862}
   m_CullTransparentMesh: 1
+=======
+>>>>>>> 776169209d223ff2a5e53c32aeec91c847c5b830
 =======
 >>>>>>> 776169209d223ff2a5e53c32aeec91c847c5b830
 --- !u!1001 &1155049583
@@ -2532,6 +2538,7 @@ MonoBehaviour:
   m_ConfineScreenEdges: 1
   m_Damping: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1 &1258324317
 GameObject:
   m_ObjectHideFlags: 0
@@ -2607,6 +2614,8 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1258324317}
   m_CullTransparentMesh: 1
+=======
+>>>>>>> 776169209d223ff2a5e53c32aeec91c847c5b830
 =======
 >>>>>>> 776169209d223ff2a5e53c32aeec91c847c5b830
 --- !u!1 &1344662275
@@ -2743,6 +2752,7 @@ CanvasRenderer:
   m_GameObject: {fileID: 1344662275}
   m_CullTransparentMesh: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1 &1348952710
 GameObject:
   m_ObjectHideFlags: 0
@@ -2846,6 +2856,8 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1348952710}
   m_CullTransparentMesh: 1
+=======
+>>>>>>> 776169209d223ff2a5e53c32aeec91c847c5b830
 =======
 >>>>>>> 776169209d223ff2a5e53c32aeec91c847c5b830
 --- !u!1 &1384166487
