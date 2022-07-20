@@ -20,27 +20,40 @@ public class HUD : MonoBehaviour
     bool immuneIsCooldown = false;
     public Text hpText;
     string hp;
+<<<<<<< HEAD
     
+=======
+    public GameObject player;
+>>>>>>> 776169209d223ff2a5e53c32aeec91c847c5b830
 
     // Start is called before the first frame update
     void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player");
+<<<<<<< HEAD
         DashCooldown = player.GetComponent<Player>().dashLength + player.GetComponent<Player>().dashCooldown;
         RapidfireCooldown = player.GetComponent<Player>().rapidLength + player.GetComponent<Player>().rapidCooldown;
         ImmuneCooldown = player.GetComponent<Player>().immuneLength + player.GetComponent<Player>().immuneCooldown;
         dash.fillAmount = 0;
         rapid.fillAmount = 0;
         immune.fillAmount = 0;
+=======
+        hp = player.GetComponent<Player>().getPlayerHP();
+        hpText.text = hp;
+>>>>>>> 776169209d223ff2a5e53c32aeec91c847c5b830
     }
 
     // Update is called once per frame
     void Update()
     {
+<<<<<<< HEAD
         Dash();
         Rapid();
         Immune();
         hp = player.GetComponent<Player>().getPlayerHP();
+=======
+        hp = hp = player.GetComponent<Player>().getPlayerHP();
+>>>>>>> 776169209d223ff2a5e53c32aeec91c847c5b830
         hpText.text = hp;
     }
 
