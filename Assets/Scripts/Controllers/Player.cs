@@ -21,8 +21,8 @@ public class Player : MonoBehaviour
 
     private float activeMoveSpeed;
     public float dashSpeed;
-    public float dashLength = 0.5f;
-    public float dashCooldown = 1f;
+    public float dashLength;
+    public float dashCooldown;
     private float dashCounter;
     private float dashCoolCounter;
 
