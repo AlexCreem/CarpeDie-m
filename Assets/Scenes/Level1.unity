@@ -1209,6 +1209,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3066fbef1bbe1154381d600548e7b021, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  health: 0
   speed: 5
   maxHealth: 5
   animator: {fileID: 465578403}
@@ -2687,7 +2688,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1241996862}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -37.013325, y: -42.23472, z: -12.54}
+  m_LocalPosition: {x: -37.985508, y: -42.23472, z: -12.54}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -3200,6 +3201,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hpText: {fileID: 1424683342}
+  player: {fileID: 0}
 --- !u!1 &1448410536
 GameObject:
   m_ObjectHideFlags: 0
