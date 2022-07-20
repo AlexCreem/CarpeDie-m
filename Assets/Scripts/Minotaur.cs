@@ -11,6 +11,17 @@ public class Minotaur : MonoBehaviour
     public float health;
     private Vector2 direction;
     public Rigidbody2D rb;
+    private bool isCharging;
+    public float detectRange;
+    public float chargeRange;
+
+    private float activeMoveSpeed;
+    public float chargeSpeed;
+    public float chargeLength = 0.5f;
+    public float chargeCooldown = 1f;
+    private float chargeCounter;
+    private float chargeCoolCounter;
+    private bool lookingLeft;
 
     public float attackTimer;
     public int attackDamage;
@@ -20,20 +31,79 @@ public class Minotaur : MonoBehaviour
     {
         player = GameObject.Find("Player");
         target = GameObject.FindGameObjectWithTag("Player").transform;
+        isCharging = false;
+        activeMoveSpeed = speed;
+        lookingLeft = false;
+    }
+    private void flip()
+    {
+        transform.Rotate(0, 180, 0);
+        lookingLeft = !lookingLeft;
     }
 
     private void FixedUpdate()
     {
-        if ((target.position - this.transform.position).magnitude < 10)
+        float distance = (target.position - this.transform.position).magnitude;
+        if (distance < detectRange && distance > chargeRange)
         {
+            if (player.transform.position.x < transform.position.x && lookingLeft)
+            {
+                flip();
+            }
+            if (player.transform.position.x > transform.position.x && !lookingLeft)
+            {
+                flip();
+            }
+            getMovement();
             move();
             //this.transform.Translate(direction.normalized * speed * Time.deltaTime, Space.World);
+        }
+        else if (distance < chargeRange && chargeCoolCounter <= 0)
+        {
+            //charge();
+            if (isCharging == false)
+            {
+                direction = (target.transform.position - this.transform.position).normalized * chargeSpeed;
+            }
+
+            activeMoveSpeed = chargeSpeed;
+            chargeCounter = chargeLength;
+
+
+            if (chargeCounter > 0)
+            {
+                chargeCounter -= Time.deltaTime;
+                isCharging = true;
+
+                if (chargeCounter <= 0)
+                {
+                    activeMoveSpeed = speed;
+                    chargeCoolCounter = chargeCooldown;
+                    isCharging = false;
+                    getMovement();
+                }
+            }
+            if (chargeCoolCounter > 0)
+            {
+                chargeCoolCounter -= Time.deltaTime;
+            }
+            move();
+        }
+    }
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.tag == "Player")
+        {
+            if (isCharging)
+            {
+                player.GetComponent<Player>().takeDamage(attackDamage);
+            }
         }
     }
     private void Update()
     {
 
-        if (target != null)
+        if (target != null && isCharging == false)
         {
             getMovement();
             //direction = target.position - this.transform.position;
@@ -44,6 +114,7 @@ public class Minotaur : MonoBehaviour
 
         }
     }
+    /*
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.tag == "Bullet")
@@ -60,9 +131,10 @@ public class Minotaur : MonoBehaviour
             }
         }
     }
+    */
     private void getMovement()
     {
-        direction = (target.transform.position - this.transform.position).normalized * speed;
+        direction = (target.transform.position - this.transform.position).normalized * activeMoveSpeed;
         //anim.SetFloat("Speed", 1);
         //anim.SetFloat("Horizontal", direction.x);
         //probably going to have to not use animations on enemies because the pack didn't come with animations and there are many bugs trying to make our own

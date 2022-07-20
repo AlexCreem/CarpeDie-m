@@ -70,7 +70,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 5
   m_Sprite: {fileID: 21300000, guid: ed6c2e088c1268246a8c14c7688d73b2, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -187,8 +187,13 @@ MonoBehaviour:
   damage: 30
   health: 300
   rb: {fileID: 4118140128965212763}
+  detectRange: 15
+  chargeRange: 10
+  chargeSpeed: 7
+  chargeLength: 1
+  chargeCooldown: 5
   attackTimer: 1
-  attackDamage: 1
+  attackDamage: 10
 --- !u!114 &4118140128965212761
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -202,3 +207,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 300
+  isBoss: 0
+  levelCompleteUI: {fileID: 0}

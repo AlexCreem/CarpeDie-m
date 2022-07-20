@@ -472,17 +472,17 @@ MonoBehaviour:
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
+  m_Maskable: 0
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
   m_Sprite: {fileID: 21300000, guid: 906bbc2b90538d849a371d557a62d0f6, type: 3}
-  m_Type: 0
+  m_Type: 3
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
-  m_FillClockwise: 1
+  m_FillClockwise: 0
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
@@ -902,6 +902,81 @@ PolygonCollider2D:
       - {x: -96.60982, y: -106.751785}
       - {x: 3.3928452, y: -107.32593}
       - {x: 3.3152122, y: -8.180874}
+--- !u!1 &216053882
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 216053883}
+  - component: {fileID: 216053885}
+  - component: {fileID: 216053884}
+  m_Layer: 5
+  m_Name: DashIcon BW
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &216053883
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 216053882}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 401514961}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -505, y: 240}
+  m_SizeDelta: {x: 50, y: 50}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &216053884
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 216053882}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.3490566, g: 0.33423817, b: 0.33423817, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 0
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 906bbc2b90538d849a371d557a62d0f6, type: 3}
+  m_Type: 3
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 0
+  m_FillOrigin: 2
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &216053885
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 216053882}
+  m_CullTransparentMesh: 1
 --- !u!1 &287478610
 GameObject:
   m_ObjectHideFlags: 0
@@ -958,6 +1033,7 @@ GameObject:
   - component: {fileID: 401514961}
   - component: {fileID: 401514963}
   - component: {fileID: 401514962}
+  - component: {fileID: 401514964}
   m_Layer: 5
   m_Name: HUD
   m_TagString: Untagged
@@ -978,6 +1054,7 @@ RectTransform:
   m_Children:
   - {fileID: 117154008}
   - {fileID: 39458933}
+  - {fileID: 216053883}
   - {fileID: 1424683341}
   m_Father: {fileID: 495522680}
   m_RootOrder: 2
@@ -1025,6 +1102,30 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 401514960}
   m_CullTransparentMesh: 1
+--- !u!114 &401514964
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 401514960}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a3d3f204cfcd36489cb373634fd2f96, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 465578397}
+  dash: {fileID: 216053884}
+  DashCooldown: 5
+  DashCounter: 0
+  dashKey: 32
+  Rapidfire: {fileID: 0}
+  RapidfireCooldown: 0
+  RapidfireCounter: 0
+  Immune: {fileID: 0}
+  ImmuneCooldown: 0
+  ImmuneCounter: 0
+  hpText: {fileID: 1424683342}
 --- !u!1 &459123281
 GameObject:
   m_ObjectHideFlags: 0
@@ -1209,6 +1310,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3066fbef1bbe1154381d600548e7b021, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  health: 0
   speed: 5
   maxHealth: 5
   animator: {fileID: 465578403}
@@ -1218,7 +1320,7 @@ MonoBehaviour:
   weapon: {fileID: 465578402}
   rapidLength: 0
   rapidCooldown: 0
-  baseAttackSpeed: 0.2
+  baseAttackSpeed: 0
   immuneLength: 0
   immuneCooldown: 0
 --- !u!4 &465578399
@@ -3138,7 +3240,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 401514961}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -3199,6 +3301,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1a3d3f204cfcd36489cb373634fd2f96, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  dash: {fileID: 0}
+  DashCooldown: 0
+  DashCounter: 0
+  dashKey: 0
+  Rapidfire: {fileID: 0}
+  RapidfireCooldown: 0
+  RapidfireCounter: 0
+  Immune: {fileID: 0}
+  ImmuneCooldown: 0
+  ImmuneCounter: 0
   hpText: {fileID: 1424683342}
 --- !u!1 &1448410536
 GameObject:
