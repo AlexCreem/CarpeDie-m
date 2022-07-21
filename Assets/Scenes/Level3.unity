@@ -1809,6 +1809,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2137073493}
     m_Modifications:
+    - target: {fileID: 7592614961611873802, guid: 5aa321854af98d843a09f46c316bed36, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 4747cd9395f8e1e48ba4df8c5524311c, type: 3}
     - target: {fileID: 7592614962374596344, guid: 5aa321854af98d843a09f46c316bed36, type: 3}
       propertyPath: m_Name
       value: Scorpion
