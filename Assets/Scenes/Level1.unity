@@ -1117,14 +1117,13 @@ MonoBehaviour:
   player: {fileID: 465578397}
   dash: {fileID: 216053884}
   DashCooldown: 5
-  DashCounter: 0
   dashKey: 32
-  Rapidfire: {fileID: 0}
+  rapid: {fileID: 0}
   RapidfireCooldown: 0
-  RapidfireCounter: 0
-  Immune: {fileID: 0}
+  rapidKey: 0
+  immune: {fileID: 0}
   ImmuneCooldown: 0
-  ImmuneCounter: 0
+  immuneKey: 0
   hpText: {fileID: 1424683342}
 --- !u!1 &459123281
 GameObject:
@@ -2311,6 +2310,10 @@ PrefabInstance:
       propertyPath: levelCompleteUI
       value: 
       objectReference: {fileID: 712496537}
+    - target: {fileID: 8287372638864472344, guid: 33bb46e6a19e96c40a888e50044c4f56, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 146ffaccfd47da446b6d14929c6d343d, type: 3}
     - target: {fileID: 8287372638864472345, guid: 33bb46e6a19e96c40a888e50044c4f56, type: 3}
       propertyPath: speed
       value: 5
@@ -2789,7 +2792,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1241996862}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -37.985508, y: -42.23472, z: -12.54}
+  m_LocalPosition: {x: -37.013325, y: -42.23472, z: -12.54}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -3304,16 +3307,14 @@ MonoBehaviour:
   player: {fileID: 0}
   dash: {fileID: 0}
   DashCooldown: 0
-  DashCounter: 0
   dashKey: 0
-  Rapidfire: {fileID: 0}
+  rapid: {fileID: 0}
   RapidfireCooldown: 0
-  RapidfireCounter: 0
-  Immune: {fileID: 0}
+  rapidKey: 0
+  immune: {fileID: 0}
   ImmuneCooldown: 0
-  ImmuneCounter: 0
+  immuneKey: 0
   hpText: {fileID: 1424683342}
-  player: {fileID: 0}
 --- !u!1 &1448410536
 GameObject:
   m_ObjectHideFlags: 0
