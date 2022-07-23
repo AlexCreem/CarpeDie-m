@@ -28,6 +28,8 @@ public class Player : MonoBehaviour
 
     private int currentScene;
 
+    public GameObject gameOverUI;
+
     public Weapon weapon;
     public float rapidLength;
     public float rapidCooldown;
@@ -184,7 +186,9 @@ public class Player : MonoBehaviour
             if (health <= 0)
             {
                 Debug.Log("Game Over");
-                //OTHER END GAME / DYING STUFF HERE
+                gameOverUI.SetActive(true);
+                Time.timeScale = 0f;
+                
             }
         }
     }
