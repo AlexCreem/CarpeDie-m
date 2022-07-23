@@ -23,6 +23,7 @@ public class Scorpion : MonoBehaviour
 
     public float attackTimer;
     private float attackCoolCounter;
+    private Transform shootPoint;
 
     private void Start()
     {
@@ -46,7 +47,8 @@ public class Scorpion : MonoBehaviour
         canShoot = false;
         GameObject newBullet = Instantiate(projectile, shootPos.position, Quaternion.identity);
 
-        newBullet.GetComponent<Rigidbody2D>().velocity = new Vector2(target.position.x - transform.position.x, target.position.y - transform.position.y);
+        //newBullet.GetComponent<Rigidbody2D>().velocity = new Vector2(target.position.x - transform.position.x, target.position.y - transform.position.y);
+        newBullet.GetComponent<Rigidbody2D>().velocity = new Vector2(target.position.x - shootPos.position.x, target.position.y - shootPos.position.y);
         canShoot = true;
 
 
