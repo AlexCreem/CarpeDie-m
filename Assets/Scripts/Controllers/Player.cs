@@ -145,6 +145,9 @@ public class Player : MonoBehaviour
 
     private void FixedUpdate()
     {
+        if (moveAmount.x == 0 && moveAmount.y == 0){
+            FindObjectOfType<AudioManager>().Play("PlayerWalking");
+        }
         move();
         slow = 1;
     }

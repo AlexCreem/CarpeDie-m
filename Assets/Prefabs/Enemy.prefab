@@ -200,6 +200,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 100
+  isBoss: 0
+  levelCompleteUI: {fileID: 0}
 --- !u!212 &8287372638864472344
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -268,7 +270,7 @@ MonoBehaviour:
   damage: 10
   health: 0
   rb: {fileID: 8287372638864472342}
-  attackTimer: 0.5
+  attackTimer: 2
   attackDamage: 5
   detectPlayerRange: 15
 --- !u!50 &8287372638864472342

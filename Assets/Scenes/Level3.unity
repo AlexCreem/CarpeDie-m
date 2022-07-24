@@ -529,6 +529,62 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 122988284}
   m_CullTransparentMesh: 1
+--- !u!1 &160343757
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 160343759}
+  - component: {fileID: 160343758}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &160343758
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 160343757}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 79b6b13bedc7e5742abb4e6f5ba18352, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: PlayerWalking
+    clip: {fileID: 8300000, guid: d7e70f1ac3c505f4fbbd4979544fc302, type: 3}
+    volume: 1
+    pitch: 1.25
+    loop: 1
+    source: {fileID: 0}
+  - name: Theme
+    clip: {fileID: 8300000, guid: 1a45ef3108391774faaf096891b036b9, type: 3}
+    volume: 0.1
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+--- !u!4 &160343759
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 160343757}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &223346945
 GameObject:
   m_ObjectHideFlags: 0
@@ -1221,7 +1277,7 @@ Transform:
   - {fileID: 325308875}
   - {fileID: 1633873957}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &473839116
 GameObject:
@@ -2003,7 +2059,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &756055007
 MonoBehaviour:
@@ -2595,7 +2651,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &901856744
 GameObject:
@@ -2931,7 +2987,7 @@ Transform:
   - {fileID: 778936366}
   - {fileID: 1237673512}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &987942714
 GameObject:
@@ -3079,7 +3135,7 @@ RectTransform:
   - {fileID: 1460358646}
   - {fileID: 473839117}
   m_Father: {fileID: 1947166677}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -3137,7 +3193,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Player: {fileID: 0}
-  BarryBBenson: {fileID: 0}
   dash: {fileID: 0}
   DashCooldown: 0
   dashKey: 0
@@ -3149,8 +3204,6 @@ MonoBehaviour:
   immuneKey: 0
   hpText: {fileID: 1076071189}
   HPSlider: {fileID: 0}
-  BossHP: {fileID: 0}
-  bhp: 0
 --- !u!114 &1076071189
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3236,7 +3289,7 @@ Transform:
   - {fileID: 93279853}
   - {fileID: 1896030199}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1198729492
 GameObject:
@@ -3368,7 +3421,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1237673511
 GameObject:
@@ -3560,7 +3613,7 @@ RectTransform:
   - {fileID: 634574120}
   - {fileID: 520016441}
   m_Father: {fileID: 1947166677}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -3750,7 +3803,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1497345388
 GameObject:
@@ -4589,7 +4642,7 @@ RectTransform:
   - {fileID: 685424383}
   - {fileID: 1350766892}
   m_Father: {fileID: 1947166677}
-  m_RootOrder: 2
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -4609,7 +4662,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Player: {fileID: 0}
-  BarryBBenson: {fileID: 0}
   dash: {fileID: 2028088158}
   DashCooldown: 5
   dashKey: 32
@@ -4621,8 +4673,6 @@ MonoBehaviour:
   immuneKey: 101
   hpText: {fileID: 1076071189}
   HPSlider: {fileID: 1350766893}
-  BossHP: {fileID: 0}
-  bhp: 0
 --- !u!114 &1889352333
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4869,7 +4919,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PauseMenuUI: {fileID: 1445429226}
-  GameOverUI: {fileID: 1885613489}
 --- !u!114 &1947166674
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4942,12 +4991,12 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
+  - {fileID: 1889352331}
   - {fileID: 1445429229}
   - {fileID: 1032088013}
-  - {fileID: 1889352331}
   - {fileID: 1885613490}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -5303,7 +5352,7 @@ Transform:
   m_Children:
   - {fileID: 1198729493}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2086878786
 MonoBehaviour:
@@ -5351,5 +5400,5 @@ Transform:
   m_Children:
   - {fileID: 871952893}
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

@@ -32,6 +32,7 @@ public class EnemyController : MonoBehaviour
         {
             if (attackCoolCounter <= 0)
             {
+                FindObjectOfType<AudioManager>().Play("EnemyNoise");
                 player.GetComponent<Player>().takeDamage(attackDamage);
                 attackCoolCounter = attackTimer;
                 Debug.Log("player should take damage");
@@ -53,7 +54,7 @@ public class EnemyController : MonoBehaviour
     }
     private void Update()
     {
-
+        
         if (target != null)
         {
             getMovement();

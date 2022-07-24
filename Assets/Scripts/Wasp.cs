@@ -13,6 +13,6 @@ public class Wasp : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        FindObjectOfType<AudioManager>().Play("PlayerWalking");
     }
 }

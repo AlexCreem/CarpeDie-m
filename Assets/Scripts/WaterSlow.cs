@@ -13,6 +13,16 @@ public class WaterSlow : MonoBehaviour
         {
             Player player = collision.GetComponent<Player>();
             player.slowSpeed(slowAmount);
+            
+        }
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.name.Equals("Player"))
+        {
+            FindObjectOfType<AudioManager>().Play("WaterSloshing");
+            
         }
     }
 
