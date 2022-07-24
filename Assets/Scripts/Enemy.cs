@@ -17,6 +17,9 @@ public class Enemy : MonoBehaviour
             Die();
         }
     }
+    public int getHP(){
+        return this.health;
+    }
     void Die()
     {
         if (isBoss)

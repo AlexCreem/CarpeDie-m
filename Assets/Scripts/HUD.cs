@@ -5,7 +5,8 @@ using UnityEngine.UI;
 
 public class HUD : MonoBehaviour
 {
-    public GameObject player;
+    public GameObject Player;
+    public GameObject BarryBBenson;
     public Image dash;
     public float DashCooldown;
     public KeyCode dashKey;
@@ -20,20 +21,31 @@ public class HUD : MonoBehaviour
     bool immuneIsCooldown = false;
     public Text hpText;
     string hp;
+    public Slider HPSlider;
+    public Slider BossHP;
+    public int bhp;
+
+
 
 
     // Start is called before the first frame update
     void Start()
     {
-        player = GameObject.FindGameObjectWithTag("Player");
-        DashCooldown = player.GetComponent<Player>().dashLength + player.GetComponent<Player>().dashCooldown;
-        RapidfireCooldown = player.GetComponent<Player>().rapidLength + player.GetComponent<Player>().rapidCooldown;
-        ImmuneCooldown = player.GetComponent<Player>().immuneLength + player.GetComponent<Player>().immuneCooldown;
+        BarryBBenson = GameObject.FindGameObjectWithTag("BarryBBenson");
+        Player = GameObject.FindGameObjectWithTag("Player");
+        DashCooldown = Player.GetComponent<Player>().dashLength + Player.GetComponent<Player>().dashCooldown;
+        RapidfireCooldown = Player.GetComponent<Player>().rapidLength + Player.GetComponent<Player>().rapidCooldown;
+        ImmuneCooldown = Player.GetComponent<Player>().immuneLength + Player.GetComponent<Player>().immuneCooldown;
         dash.fillAmount = 0;
         rapid.fillAmount = 0;
         immune.fillAmount = 0;
-        hp = player.GetComponent<Player>().getPlayerHP();
+        hp = Player.GetComponent<Player>().getPlayerHP();
         hpText.text = hp;
+        HPSlider.maxValue = Player.GetComponent<Player>().maxHealth;
+        BossHP.maxValue = 500;
+        HPSlider.value = 100;
+        BossHP.value = 500;
+
     }
 
     // Update is called once per frame
@@ -42,11 +54,15 @@ public class HUD : MonoBehaviour
         Dash();
         Rapid();
         Immune();
-        hp = player.GetComponent<Player>().getPlayerHP();
-        hp = hp = player.GetComponent<Player>().getPlayerHP();
-        hp = hp = player.GetComponent<Player>().getPlayerHP();
+        hp = Player.GetComponent<Player>().getPlayerHP();
+        HPSlider.value = (float)Player.GetComponent<Player>().health;
+        BossHP.value = (float)BarryBBenson.GetComponent<Enemy>().getHP();
+        hp = hp = Player.GetComponent<Player>().getPlayerHP();
+        hp = hp = Player.GetComponent<Player>().getPlayerHP();
         hpText.text = hp;
     }
+
+
 
     void Dash(){
         if(Input.GetKey(dashKey) && dashIsCooldown == false){
