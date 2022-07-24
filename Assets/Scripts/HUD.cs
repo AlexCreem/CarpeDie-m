@@ -6,7 +6,6 @@ using UnityEngine.UI;
 public class HUD : MonoBehaviour
 {
     public GameObject Player;
-    public GameObject BarryBBenson;
     public Image dash;
     public float DashCooldown;
     public KeyCode dashKey;
@@ -22,8 +21,7 @@ public class HUD : MonoBehaviour
     public Text hpText;
     string hp;
     public Slider HPSlider;
-    public Slider BossHP;
-    public int bhp;
+  
 
 
 
@@ -31,7 +29,6 @@ public class HUD : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        BarryBBenson = GameObject.FindGameObjectWithTag("BarryBBenson");
         Player = GameObject.FindGameObjectWithTag("Player");
         DashCooldown = Player.GetComponent<Player>().dashLength + Player.GetComponent<Player>().dashCooldown;
         RapidfireCooldown = Player.GetComponent<Player>().rapidLength + Player.GetComponent<Player>().rapidCooldown;
@@ -42,9 +39,7 @@ public class HUD : MonoBehaviour
         hp = Player.GetComponent<Player>().getPlayerHP();
         hpText.text = hp;
         HPSlider.maxValue = Player.GetComponent<Player>().maxHealth;
-        BossHP.maxValue = 500;
         HPSlider.value = 100;
-        BossHP.value = 500;
 
     }
 
@@ -56,7 +51,6 @@ public class HUD : MonoBehaviour
         Immune();
         hp = Player.GetComponent<Player>().getPlayerHP();
         HPSlider.value = (float)Player.GetComponent<Player>().health;
-        BossHP.value = (float)BarryBBenson.GetComponent<Enemy>().getHP();
         hp = hp = Player.GetComponent<Player>().getPlayerHP();
         hp = hp = Player.GetComponent<Player>().getPlayerHP();
         hpText.text = hp;
