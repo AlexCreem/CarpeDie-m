@@ -194,7 +194,6 @@ public class Player : MonoBehaviour
             {
                 Debug.Log("Game Over");
                 SceneManager.LoadScene(4);
-                Time.timeScale = 0f;
                 
             }
         }

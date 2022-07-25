@@ -1669,6 +1669,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PauseMenuUI: {fileID: 3169473}
+  GameOverUI: {fileID: 0}
 --- !u!114 &866156409
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2272,7 +2273,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 961621759}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -34.38209, y: -40.23495, z: -12.536142}
+  m_LocalPosition: {x: -33.09587, y: -40.23495, z: -12.536142}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -3134,7 +3135,6 @@ GameObject:
   - component: {fileID: 1348952711}
   - component: {fileID: 1348952714}
   - component: {fileID: 1348952713}
-  - component: {fileID: 1348952712}
   m_Layer: 5
   m_Name: HP Text
   m_TagString: Untagged
@@ -3161,30 +3161,6 @@ RectTransform:
   m_AnchoredPosition: {x: -225, y: 225}
   m_SizeDelta: {x: 300, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1348952712
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1348952710}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1a3d3f204cfcd36489cb373634fd2f96, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Player: {fileID: 0}
-  dash: {fileID: 0}
-  DashCooldown: 0
-  dashKey: 0
-  rapid: {fileID: 0}
-  RapidfireCooldown: 0
-  rapidKey: 0
-  immune: {fileID: 0}
-  ImmuneCooldown: 0
-  immuneKey: 0
-  hpText: {fileID: 1348952713}
-  HPSlider: {fileID: 0}
 --- !u!114 &1348952713
 MonoBehaviour:
   m_ObjectHideFlags: 0

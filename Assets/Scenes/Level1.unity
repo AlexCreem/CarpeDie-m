@@ -215,6 +215,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PauseMenuUI: {fileID: 24082399}
+  GameOverUI: {fileID: 0}
 --- !u!1 &27293029
 GameObject:
   m_ObjectHideFlags: 0
@@ -1593,6 +1594,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PauseMenuUI: {fileID: 24082399}
+  GameOverUI: {fileID: 0}
 --- !u!4 &508428474 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8287372638864472346, guid: 33bb46e6a19e96c40a888e50044c4f56, type: 3}
@@ -3520,7 +3522,6 @@ GameObject:
   - component: {fileID: 1424683341}
   - component: {fileID: 1424683343}
   - component: {fileID: 1424683342}
-  - component: {fileID: 1424683344}
   m_Layer: 0
   m_Name: HP Text
   m_TagString: Untagged
@@ -3589,30 +3590,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1424683340}
   m_CullTransparentMesh: 1
---- !u!114 &1424683344
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1424683340}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1a3d3f204cfcd36489cb373634fd2f96, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Player: {fileID: 0}
-  dash: {fileID: 0}
-  DashCooldown: 0
-  dashKey: 0
-  rapid: {fileID: 0}
-  RapidfireCooldown: 0
-  rapidKey: 0
-  immune: {fileID: 0}
-  ImmuneCooldown: 0
-  immuneKey: 0
-  hpText: {fileID: 1424683342}
-  HPSlider: {fileID: 0}
 --- !u!1 &1448410536
 GameObject:
   m_ObjectHideFlags: 0
@@ -3821,6 +3798,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyPrefab: {fileID: 8287372638864472341, guid: 33bb46e6a19e96c40a888e50044c4f56, type: 3}
   numberOfEnemies: 45
+  newEnemyType: 0
 --- !u!4 &1587890177
 Transform:
   m_ObjectHideFlags: 0
