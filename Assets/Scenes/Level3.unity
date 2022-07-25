@@ -529,62 +529,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 122988284}
   m_CullTransparentMesh: 1
---- !u!1 &160343757
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 160343759}
-  - component: {fileID: 160343758}
-  m_Layer: 0
-  m_Name: AudioManager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &160343758
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 160343757}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 79b6b13bedc7e5742abb4e6f5ba18352, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sounds:
-  - name: PlayerWalking
-    clip: {fileID: 8300000, guid: d7e70f1ac3c505f4fbbd4979544fc302, type: 3}
-    volume: 1
-    pitch: 1.25
-    loop: 1
-    source: {fileID: 0}
-  - name: Theme
-    clip: {fileID: 8300000, guid: 1a45ef3108391774faaf096891b036b9, type: 3}
-    volume: 0.1
-    pitch: 1
-    loop: 1
-    source: {fileID: 0}
---- !u!4 &160343759
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 160343757}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &223346945
 GameObject:
   m_ObjectHideFlags: 0
@@ -3409,6 +3353,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyPrefab: {fileID: 7592614962374596344, guid: 5aa321854af98d843a09f46c316bed36, type: 3}
   numberOfEnemies: 30
+  newEnemyType: 0
 --- !u!4 &1210956201
 Transform:
   m_ObjectHideFlags: 0
@@ -3452,6 +3397,104 @@ Transform:
   m_Children: []
   m_Father: {fileID: 961927095}
   m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1349051057
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1349051059}
+  - component: {fileID: 1349051058}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1349051058
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1349051057}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 79b6b13bedc7e5742abb4e6f5ba18352, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: PlayerWalking
+    clip: {fileID: 8300000, guid: 39168c19373a99c4493a13fbbd2a1d24, type: 3}
+    volume: 0.555
+    pitch: 1.25
+    loop: 1
+    source: {fileID: 0}
+  - name: Theme
+    clip: {fileID: 8300000, guid: 1a45ef3108391774faaf096891b036b9, type: 3}
+    volume: 0.1
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: ScorpianNoise
+    clip: {fileID: 8300000, guid: 72b94fb5b0e920a4abcbb1b0480011ef, type: 3}
+    volume: 0.415
+    pitch: 1.01
+    loop: 0
+    source: {fileID: 0}
+  - name: ScorpianDeath
+    clip: {fileID: 8300000, guid: 693a837574306f14d98df562dd44d1fe, type: 3}
+    volume: 0.212
+    pitch: 1.01
+    loop: 0
+    source: {fileID: 0}
+  - name: PlayerHit
+    clip: {fileID: 8300000, guid: 9504450c072f5d049b6837d1c2a9c048, type: 3}
+    volume: 0.352
+    pitch: 1.01
+    loop: 0
+    source: {fileID: 0}
+  - name: PlayerShoot
+    clip: {fileID: 8300000, guid: 5cfdf965805df4644a73c369c47b7290, type: 3}
+    volume: 0.352
+    pitch: 1.01
+    loop: 0
+    source: {fileID: 0}
+  - name: Dash
+    clip: {fileID: 8300000, guid: 6f8033f8848bcbb4e8a34b67ba1b49f3, type: 3}
+    volume: 0.352
+    pitch: 1.01
+    loop: 0
+    source: {fileID: 0}
+  - name: RapidFire
+    clip: {fileID: 8300000, guid: ea1583a2313f82c4eba3ca5a379011ed, type: 3}
+    volume: 0.352
+    pitch: 1.01
+    loop: 0
+    source: {fileID: 0}
+  - name: Immunity
+    clip: {fileID: 8300000, guid: 8703e31c7f2f48643b3bbb0805f142fd, type: 3}
+    volume: 0.352
+    pitch: 1.01
+    loop: 0
+    source: {fileID: 0}
+--- !u!4 &1349051059
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1349051057}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1350766891
 GameObject:

@@ -462,62 +462,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 57958767}
   m_CullTransparentMesh: 1
---- !u!1 &116475034
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 116475036}
-  - component: {fileID: 116475035}
-  m_Layer: 0
-  m_Name: AudioManager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &116475035
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 116475034}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 79b6b13bedc7e5742abb4e6f5ba18352, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sounds:
-  - name: PlayerWalking
-    clip: {fileID: 8300000, guid: bc7d4d7a1e3efe64fa7dd74c572e9f52, type: 3}
-    volume: 1
-    pitch: 1.25
-    loop: 1
-    source: {fileID: 0}
-  - name: Theme
-    clip: {fileID: 8300000, guid: 1a45ef3108391774faaf096891b036b9, type: 3}
-    volume: 0.1
-    pitch: 1
-    loop: 1
-    source: {fileID: 0}
---- !u!4 &116475036
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 116475034}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &161244517
 GameObject:
   m_ObjectHideFlags: 0
@@ -942,6 +886,98 @@ PolygonCollider2D:
       - {x: -96.60982, y: -106.751785}
       - {x: 3.3928452, y: -107.32593}
       - {x: 3.3152122, y: -8.180874}
+--- !u!1 &415781608
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 415781610}
+  - component: {fileID: 415781609}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &415781609
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 415781608}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 79b6b13bedc7e5742abb4e6f5ba18352, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: PlayerWalking
+    clip: {fileID: 8300000, guid: 6a499030d80fc504c8df9ba233a50595, type: 3}
+    volume: 0.555
+    pitch: 1.25
+    loop: 1
+    source: {fileID: 0}
+  - name: Theme
+    clip: {fileID: 8300000, guid: 1a45ef3108391774faaf096891b036b9, type: 3}
+    volume: 0.1
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: MinotaurNoise
+    clip: {fileID: 8300000, guid: ea197c33459638f42a5a67655a9771b3, type: 3}
+    volume: 0.415
+    pitch: 1.01
+    loop: 0
+    source: {fileID: 0}
+  - name: MinotaurDeath
+    clip: {fileID: 8300000, guid: c0a38567dce0ed846ad6934fbd2a597e, type: 3}
+    volume: 0.212
+    pitch: 1.01
+    loop: 0
+    source: {fileID: 0}
+  - name: PlayerHit
+    clip: {fileID: 8300000, guid: 9504450c072f5d049b6837d1c2a9c048, type: 3}
+    volume: 0.352
+    pitch: 1.01
+    loop: 0
+    source: {fileID: 0}
+  - name: PlayerShoot
+    clip: {fileID: 8300000, guid: 5cfdf965805df4644a73c369c47b7290, type: 3}
+    volume: 0.352
+    pitch: 1.01
+    loop: 0
+    source: {fileID: 0}
+  - name: Dash
+    clip: {fileID: 8300000, guid: 6f8033f8848bcbb4e8a34b67ba1b49f3, type: 3}
+    volume: 0.352
+    pitch: 1.01
+    loop: 0
+    source: {fileID: 0}
+  - name: RapidFire
+    clip: {fileID: 8300000, guid: ea1583a2313f82c4eba3ca5a379011ed, type: 3}
+    volume: 0.352
+    pitch: 1.01
+    loop: 0
+    source: {fileID: 0}
+--- !u!4 &415781610
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 415781608}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &523393385
 GameObject:
   m_ObjectHideFlags: 0
@@ -1993,6 +2029,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyPrefab: {fileID: 4118140128965212766, guid: c90224c3e3ca63747a0b05180205c77f, type: 3}
   numberOfEnemies: 15
+  newEnemyType: 2
 --- !u!4 &936225579
 Transform:
   m_ObjectHideFlags: 0

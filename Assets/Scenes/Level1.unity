@@ -2104,6 +2104,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 100
+  enemyType: 1
   isBoss: 0
   levelCompleteUI: {fileID: 0}
 --- !u!212 &870961240
@@ -4431,8 +4432,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sounds:
   - name: PlayerWalking
-    clip: {fileID: 8300000, guid: bc7d4d7a1e3efe64fa7dd74c572e9f52, type: 3}
-    volume: 1
+    clip: {fileID: 8300000, guid: 6a499030d80fc504c8df9ba233a50595, type: 3}
+    volume: 0.555
     pitch: 1.25
     loop: 1
     source: {fileID: 0}
@@ -4444,13 +4445,37 @@ MonoBehaviour:
     source: {fileID: 0}
   - name: WaterSloshing
     clip: {fileID: 8300000, guid: d4bda5fb6aca58f4395e3586f4d8c293, type: 3}
-    volume: 0.429
+    volume: 0.314
     pitch: 1
     loop: 0
     source: {fileID: 0}
-  - name: EnemyNoise
-    clip: {fileID: 8300000, guid: 0992109d5e5f5fd4db12788e212bfffc, type: 3}
+  - name: WaspNoise
+    clip: {fileID: 8300000, guid: 67ad2c0eee2e74848b9c2cddcd75f70a, type: 3}
+    volume: 0.415
+    pitch: 1.01
+    loop: 0
+    source: {fileID: 0}
+  - name: WaspDeath
+    clip: {fileID: 8300000, guid: 7911ba5e42b50ce4fb8cac859249bfea, type: 3}
     volume: 0.212
+    pitch: 1.01
+    loop: 0
+    source: {fileID: 0}
+  - name: PlayerHit
+    clip: {fileID: 8300000, guid: 9504450c072f5d049b6837d1c2a9c048, type: 3}
+    volume: 0.352
+    pitch: 1.01
+    loop: 0
+    source: {fileID: 0}
+  - name: PlayerShoot
+    clip: {fileID: 8300000, guid: 5cfdf965805df4644a73c369c47b7290, type: 3}
+    volume: 0.352
+    pitch: 1.01
+    loop: 0
+    source: {fileID: 0}
+  - name: Dash
+    clip: {fileID: 8300000, guid: 6f8033f8848bcbb4e8a34b67ba1b49f3, type: 3}
+    volume: 0.352
     pitch: 1.01
     loop: 0
     source: {fileID: 0}

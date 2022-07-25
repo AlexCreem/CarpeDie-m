@@ -68,6 +68,7 @@ public class Player : MonoBehaviour
         {
             if(dashCoolCounter <= 0 && dashCounter <= 0)
             {
+                FindObjectOfType<AudioManager>().Play("Dash");
                 activeMoveSpeed = dashSpeed;
                 dashCounter = dashLength;
             }
@@ -94,6 +95,7 @@ public class Player : MonoBehaviour
             {
                 if (rapidCoolCounter <= 0 && rapidCounter <= 0)
                 {
+                    FindObjectOfType<AudioManager>().Play("RapidFire");
                     weapon.setAttackSpeed(0);
                     rapidCounter = rapidLength;
                 }
@@ -122,6 +124,7 @@ public class Player : MonoBehaviour
             {
                 if (immuneCoolCounter <= 0 && immuneCounter <= 0)
                 {
+                    FindObjectOfType<AudioManager>().Play("Immunity");
                     immune = true;
                     immuneCounter = immuneLength;
                 }
@@ -185,6 +188,7 @@ public class Player : MonoBehaviour
     {
         if (!immune)
         {
+            FindObjectOfType<AudioManager>().Play("PlayerHit");
             health -= amount;
             if (health <= 0)
             {

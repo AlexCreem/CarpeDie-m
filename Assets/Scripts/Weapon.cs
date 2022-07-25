@@ -17,6 +17,7 @@ public class Weapon : MonoBehaviour
         {
             if (Input.GetButtonDown("Fire1"))
             {
+                FindObjectOfType<AudioManager>().Play("PlayerShoot");
                 Shoot();
                 attackCoolCounter = attackTimer;
             }

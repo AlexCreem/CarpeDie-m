@@ -96,6 +96,7 @@ public class Minotaur : MonoBehaviour
         {
             if (isCharging)
             {
+                FindObjectOfType<AudioManager>().Play("MinotaurNoise");
                 player.GetComponent<Player>().takeDamage(attackDamage);
             }
         }
