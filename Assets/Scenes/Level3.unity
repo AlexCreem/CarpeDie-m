@@ -248,7 +248,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   slowAmount: 0.5
   player: {fileID: 961927088}
-  burnTimer: 0.2
+  burnTimer: 0.75
   burnDamage: 5
 --- !u!19719996 &93279855
 TilemapCollider2D:
@@ -2466,7 +2466,7 @@ PrefabInstance:
       objectReference: {fileID: 961927088}
     - target: {fileID: 7592614962374596349, guid: 5aa321854af98d843a09f46c316bed36, type: 3}
       propertyPath: attackTimer
-      value: 1
+      value: 0.2
       objectReference: {fileID: 0}
     - target: {fileID: 7592614962374596349, guid: 5aa321854af98d843a09f46c316bed36, type: 3}
       propertyPath: playerDetectRange
@@ -2915,7 +2915,7 @@ MonoBehaviour:
   rapidLength: 4
   rapidCooldown: 8
   baseAttackSpeed: 0.2
-  immuneLength: 5
+  immuneLength: 3
   immuneCooldown: 20
 --- !u!4 &961927095
 Transform:
@@ -3071,7 +3071,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1032088010}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -3079,7 +3079,7 @@ RectTransform:
   - {fileID: 1460358646}
   - {fileID: 473839117}
   m_Father: {fileID: 1947166677}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -3352,7 +3352,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyPrefab: {fileID: 7592614962374596344, guid: 5aa321854af98d843a09f46c316bed36, type: 3}
-  numberOfEnemies: 20
+  numberOfEnemies: 15
   newEnemyType: 0
 --- !u!4 &1210956201
 Transform:
@@ -3656,7 +3656,7 @@ RectTransform:
   - {fileID: 634574120}
   - {fileID: 520016441}
   m_Father: {fileID: 1947166677}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -4592,7 +4592,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1885613489}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -4962,6 +4962,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PauseMenuUI: {fileID: 1445429226}
+  GameOverUI: {fileID: 1885613489}
 --- !u!114 &1947166674
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5035,8 +5036,8 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 1889352331}
-  - {fileID: 1445429229}
   - {fileID: 1032088013}
+  - {fileID: 1445429229}
   - {fileID: 1885613490}
   m_Father: {fileID: 0}
   m_RootOrder: 8

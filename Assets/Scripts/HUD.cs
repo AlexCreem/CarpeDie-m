@@ -21,7 +21,6 @@ public class HUD : MonoBehaviour
     public Text hpText;
     string hp;
     public Slider HPSlider;
-  
 
 
 
@@ -33,10 +32,10 @@ public class HUD : MonoBehaviour
         DashCooldown = Player.dashLength + Player.dashCooldown;
         RapidfireCooldown = Player.rapidLength + Player.rapidCooldown;
         ImmuneCooldown = Player.immuneLength + Player.immuneCooldown;
+        hp = Player.getPlayerHP();
         dash.fillAmount = 0;
         rapid.fillAmount = 0;
         immune.fillAmount = 0;
-        hp = Player.getPlayerHP();
         hpText.text = hp;
         HPSlider.maxValue = Player.maxHealth;
         HPSlider.value = 100;
@@ -49,7 +48,7 @@ public class HUD : MonoBehaviour
         Dash();
         Rapid();
         Immune();
-        hp = Player.GetComponent<Player>().getPlayerHP();
+        hp = Player.getPlayerHP();
         HPSlider.value = (float)Player.health;
         hp = hp = Player.getPlayerHP();
         hp = hp = Player.getPlayerHP();

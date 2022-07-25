@@ -23,7 +23,6 @@ public class PauseMenu : MonoBehaviour
 
     public void Resume(){
         PauseMenuUI.SetActive(false);
-        //GameOverUI.SetActive(false);
         Time.timeScale = 1f;
         GameIsPaused = false;
     }
