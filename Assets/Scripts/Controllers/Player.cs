@@ -193,7 +193,7 @@ public class Player : MonoBehaviour
             if (health <= 0)
             {
                 Debug.Log("Game Over");
-                gameOverUI.SetActive(true);
+                SceneManager.LoadScene(4);
                 Time.timeScale = 0f;
                 
             }
