@@ -2619,7 +2619,7 @@ PrefabInstance:
       objectReference: {fileID: 21300000, guid: 146ffaccfd47da446b6d14929c6d343d, type: 3}
     - target: {fileID: 8287372638864472345, guid: 33bb46e6a19e96c40a888e50044c4f56, type: 3}
       propertyPath: speed
-      value: 4
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 8287372638864472345, guid: 33bb46e6a19e96c40a888e50044c4f56, type: 3}
       propertyPath: damage
