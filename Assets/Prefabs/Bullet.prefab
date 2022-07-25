@@ -137,5 +137,5 @@ MonoBehaviour:
   speed: 20
   rb: {fileID: 6453176052077041171}
   damage: 20
-  dieTime: 3
+  dieTime: 1.3
   dieObj: {fileID: 0}

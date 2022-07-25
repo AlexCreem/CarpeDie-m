@@ -2623,7 +2623,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8287372638864472345, guid: 33bb46e6a19e96c40a888e50044c4f56, type: 3}
       propertyPath: health
-      value: 800
+      value: 1000
       objectReference: {fileID: 0}
     - target: {fileID: 8287372638864472345, guid: 33bb46e6a19e96c40a888e50044c4f56, type: 3}
       propertyPath: player
