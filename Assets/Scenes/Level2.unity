@@ -2248,7 +2248,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 6
+  orthographic size: 8
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -2272,7 +2272,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 961621759}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -37.013325, y: -42.23472, z: -12.536142}
+  m_LocalPosition: {x: -34.38209, y: -40.23495, z: -12.536142}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -2741,8 +2741,16 @@ PrefabInstance:
     m_TransformParent: {fileID: 984658177}
     m_Modifications:
     - target: {fileID: 4118140128965212761, guid: c90224c3e3ca63747a0b05180205c77f, type: 3}
+      propertyPath: health
+      value: 1000
+      objectReference: {fileID: 0}
+    - target: {fileID: 4118140128965212761, guid: c90224c3e3ca63747a0b05180205c77f, type: 3}
       propertyPath: isBoss
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4118140128965212761, guid: c90224c3e3ca63747a0b05180205c77f, type: 3}
+      propertyPath: enemyType
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4118140128965212761, guid: c90224c3e3ca63747a0b05180205c77f, type: 3}
       propertyPath: levelCompleteUI
@@ -2804,6 +2812,18 @@ PrefabInstance:
       propertyPath: health
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 4118140128965212765, guid: c90224c3e3ca63747a0b05180205c77f, type: 3}
+      propertyPath: chargeRange
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 4118140128965212765, guid: c90224c3e3ca63747a0b05180205c77f, type: 3}
+      propertyPath: chargeSpeed
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4118140128965212765, guid: c90224c3e3ca63747a0b05180205c77f, type: 3}
+      propertyPath: detectRange
+      value: 20
+      objectReference: {fileID: 0}
     - target: {fileID: 4118140128965212766, guid: c90224c3e3ca63747a0b05180205c77f, type: 3}
       propertyPath: m_Name
       value: Minotaur
@@ -2850,7 +2870,7 @@ MonoBehaviour:
   m_Follow: {fileID: 1649193251}
   m_Lens:
     FieldOfView: 60
-    OrthographicSize: 6
+    OrthographicSize: 8
     NearClipPlane: 0.3
     FarClipPlane: 1000
     Dutch: 0

@@ -4,23 +4,28 @@ using UnityEngine;
 
 public class Bullet : MonoBehaviour
 {
-    public float speed = 10f;
+    private Vector3 shootDirection;
+    public float speed;
     public Rigidbody2D rb;
     public int damage = 20;
     public float dieTime;
     public GameObject dieObj;
+
+
     void Start()
     {
-        Vector3 shootDirection = Input.mousePosition;
-        shootDirection.z = 0.0f;
-        shootDirection = Camera.main.ScreenToWorldPoint(shootDirection);
-        shootDirection = shootDirection - transform.position;
-        rb.velocity = shootDirection.normalized * speed;
-        //rb.velocity = transform.right * speed;
-        //StartCoroutine(CountDownTimer());
+        shootDirection = (Camera.main.ScreenToWorldPoint(Input.mousePosition) - transform.position);
+        shootDirection.z = 0f;
+        shootDirection = shootDirection.normalized * speed;
+        //rb.velocity = shootDirection.normalized * speed;
         Destroy(this.gameObject, dieTime);
+        
     }
-
+    private void FixedUpdate()
+    {
+        // rb.MovePosition(rb.position + shootDirection * Time.deltaTime);
+        transform.position += shootDirection * Time.deltaTime;
+    }
     private void OnTriggerEnter2D(Collider2D collision)
     {
         Debug.Log(collision.name);
@@ -48,4 +53,6 @@ public class Bullet : MonoBehaviour
         */
        //Destroy(this.gameObject);
     }
+
+
 }

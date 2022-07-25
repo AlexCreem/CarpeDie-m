@@ -132,6 +132,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 350
+  enemyType: 3
+  isBoss: 0
+  levelCompleteUI: {fileID: 0}
 --- !u!114 &7592614962374596349
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -146,14 +149,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 5
   player: {fileID: 0}
-  damage: 15
+  damage: 10
   health: 350
+  playerDetectRange: 20
   rb: {fileID: 7592614962374596350}
-  range: 7
+  range: 10
   projectile: {fileID: 151795575146160467, guid: 8af4951d1fa7f674d88b3ca557f57f34, type: 3}
   shootSpeed: 10
   shootPos: {fileID: 7592614963257947413}
-  attackTimer: 2
+  attackTimer: 1.5
 --- !u!50 &7592614962374596350
 Rigidbody2D:
   serializedVersion: 4

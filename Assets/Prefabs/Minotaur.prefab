@@ -184,12 +184,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 3
   player: {fileID: 0}
-  damage: 30
-  health: 300
+  damage: 15
+  health: 150
   rb: {fileID: 4118140128965212763}
   detectRange: 15
   chargeRange: 10
-  chargeSpeed: 7
+  chargeSpeed: 8
   chargeLength: 1
   chargeCooldown: 5
   attackTimer: 1
@@ -207,5 +207,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 300
+  enemyType: 2
   isBoss: 0
   levelCompleteUI: {fileID: 0}

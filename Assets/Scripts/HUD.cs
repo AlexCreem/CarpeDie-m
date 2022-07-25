@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class HUD : MonoBehaviour
 {
-    public GameObject Player;
+    public Player Player;
     public Image dash;
     public float DashCooldown;
     public KeyCode dashKey;
@@ -29,16 +29,16 @@ public class HUD : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Player = GameObject.FindGameObjectWithTag("Player");
-        DashCooldown = Player.GetComponent<Player>().dashLength + Player.GetComponent<Player>().dashCooldown;
-        RapidfireCooldown = Player.GetComponent<Player>().rapidLength + Player.GetComponent<Player>().rapidCooldown;
-        ImmuneCooldown = Player.GetComponent<Player>().immuneLength + Player.GetComponent<Player>().immuneCooldown;
+        Player = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
+        DashCooldown = Player.dashLength + Player.dashCooldown;
+        RapidfireCooldown = Player.rapidLength + Player.rapidCooldown;
+        ImmuneCooldown = Player.immuneLength + Player.immuneCooldown;
         dash.fillAmount = 0;
         rapid.fillAmount = 0;
         immune.fillAmount = 0;
-        hp = Player.GetComponent<Player>().getPlayerHP();
+        hp = Player.getPlayerHP();
         hpText.text = hp;
-        HPSlider.maxValue = Player.GetComponent<Player>().maxHealth;
+        HPSlider.maxValue = Player.maxHealth;
         HPSlider.value = 100;
 
     }
@@ -50,9 +50,9 @@ public class HUD : MonoBehaviour
         Rapid();
         Immune();
         hp = Player.GetComponent<Player>().getPlayerHP();
-        HPSlider.value = (float)Player.GetComponent<Player>().health;
-        hp = hp = Player.GetComponent<Player>().getPlayerHP();
-        hp = hp = Player.GetComponent<Player>().getPlayerHP();
+        HPSlider.value = (float)Player.health;
+        hp = hp = Player.getPlayerHP();
+        hp = hp = Player.getPlayerHP();
         hpText.text = hp;
     }
 

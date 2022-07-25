@@ -43,6 +43,14 @@ public class Minotaur : MonoBehaviour
 
     private void FixedUpdate()
     {
+        if (attackCoolCounter > 0)
+        {
+            attackCoolCounter -= Time.deltaTime;
+        }
+
+
+
+
         float distance = (target.position - this.transform.position).magnitude;
         if (distance < detectRange && distance > chargeRange)
         {
@@ -96,8 +104,12 @@ public class Minotaur : MonoBehaviour
         {
             if (isCharging)
             {
-                FindObjectOfType<AudioManager>().Play("MinotaurNoise");
-                player.GetComponent<Player>().takeDamage(attackDamage);
+                if (attackCoolCounter <=0)
+                {
+                    FindObjectOfType<AudioManager>().Play("MinotaurNoise");
+                    player.GetComponent<Player>().takeDamage(attackDamage);
+                    attackCoolCounter = attackTimer;
+                }
             }
         }
     }
@@ -118,7 +130,7 @@ public class Minotaur : MonoBehaviour
     /*
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.tag == "Bullet")
+        if (collision.gameObject.tag == "Player")
         {
             if (attackCoolCounter <= 0)
             {
