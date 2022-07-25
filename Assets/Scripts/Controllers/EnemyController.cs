@@ -7,7 +7,7 @@ public class EnemyController : MonoBehaviour
 {
     public float speed = 3f;
     private Transform target;
-    public GameObject player;
+    public Player player;
     public float damage;
     public float health;
     private Vector2 direction;
@@ -22,7 +22,7 @@ public class EnemyController : MonoBehaviour
 
     private void Start()
     {
-        player = GameObject.Find("Player");
+        player = GameObject.Find("Player").GetComponent<Player>();
         target = GameObject.FindGameObjectWithTag("Player").transform;
         lookingLeft = false;
     }
@@ -33,7 +33,7 @@ public class EnemyController : MonoBehaviour
             if (attackCoolCounter <= 0)
             {
                 FindObjectOfType<AudioManager>().Play("WaspNoise");
-                player.GetComponent<Player>().takeDamage(attackDamage);
+                player.takeDamage(attackDamage);
                 attackCoolCounter = attackTimer;
                 Debug.Log("player should take damage");
             }

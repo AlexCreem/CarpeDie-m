@@ -2599,10 +2599,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8287372638864472343, guid: 33bb46e6a19e96c40a888e50044c4f56, type: 3}
       propertyPath: health
-      value: 500
+      value: 1000
       objectReference: {fileID: 0}
     - target: {fileID: 8287372638864472343, guid: 33bb46e6a19e96c40a888e50044c4f56, type: 3}
       propertyPath: isBoss
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8287372638864472343, guid: 33bb46e6a19e96c40a888e50044c4f56, type: 3}
+      propertyPath: enemyType
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8287372638864472343, guid: 33bb46e6a19e96c40a888e50044c4f56, type: 3}
@@ -2615,7 +2619,7 @@ PrefabInstance:
       objectReference: {fileID: 21300000, guid: 146ffaccfd47da446b6d14929c6d343d, type: 3}
     - target: {fileID: 8287372638864472345, guid: 33bb46e6a19e96c40a888e50044c4f56, type: 3}
       propertyPath: speed
-      value: 5
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 8287372638864472345, guid: 33bb46e6a19e96c40a888e50044c4f56, type: 3}
       propertyPath: damage
@@ -2628,10 +2632,14 @@ PrefabInstance:
     - target: {fileID: 8287372638864472345, guid: 33bb46e6a19e96c40a888e50044c4f56, type: 3}
       propertyPath: player
       value: 
-      objectReference: {fileID: 465578397}
+      objectReference: {fileID: 0}
+    - target: {fileID: 8287372638864472345, guid: 33bb46e6a19e96c40a888e50044c4f56, type: 3}
+      propertyPath: attackTimer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8287372638864472345, guid: 33bb46e6a19e96c40a888e50044c4f56, type: 3}
       propertyPath: attackDamage
-      value: 10
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 8287372638864472345, guid: 33bb46e6a19e96c40a888e50044c4f56, type: 3}
       propertyPath: detectPlayerRange
@@ -2643,19 +2651,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8287372638864472346, guid: 33bb46e6a19e96c40a888e50044c4f56, type: 3}
       propertyPath: m_LocalScale.x
-      value: 5
+      value: 0.82
       objectReference: {fileID: 0}
     - target: {fileID: 8287372638864472346, guid: 33bb46e6a19e96c40a888e50044c4f56, type: 3}
       propertyPath: m_LocalScale.y
-      value: 5
+      value: 0.7601719
       objectReference: {fileID: 0}
     - target: {fileID: 8287372638864472346, guid: 33bb46e6a19e96c40a888e50044c4f56, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 5.5756
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8287372638864472346, guid: 33bb46e6a19e96c40a888e50044c4f56, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.0986
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8287372638864472346, guid: 33bb46e6a19e96c40a888e50044c4f56, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2690,16 +2698,28 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8287372638864472347, guid: 33bb46e6a19e96c40a888e50044c4f56, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8287372638864472347, guid: 33bb46e6a19e96c40a888e50044c4f56, type: 3}
       propertyPath: m_Points.Array.size
       value: 26
       objectReference: {fileID: 0}
     - target: {fileID: 8287372638864472347, guid: 33bb46e6a19e96c40a888e50044c4f56, type: 3}
+      propertyPath: m_UseAdjacentEndPoint
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8287372638864472347, guid: 33bb46e6a19e96c40a888e50044c4f56, type: 3}
+      propertyPath: m_UseAdjacentStartPoint
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8287372638864472347, guid: 33bb46e6a19e96c40a888e50044c4f56, type: 3}
       propertyPath: m_Points.Array.data[0].x
-      value: -1.4406058
+      value: -1.4066466
       objectReference: {fileID: 0}
     - target: {fileID: 8287372638864472347, guid: 33bb46e6a19e96c40a888e50044c4f56, type: 3}
       propertyPath: m_Points.Array.data[0].y
-      value: -0.7640002
+      value: -0.81762564
       objectReference: {fileID: 0}
     - target: {fileID: 8287372638864472347, guid: 33bb46e6a19e96c40a888e50044c4f56, type: 3}
       propertyPath: m_Points.Array.data[1].x
@@ -2719,11 +2739,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8287372638864472347, guid: 33bb46e6a19e96c40a888e50044c4f56, type: 3}
       propertyPath: m_Points.Array.data[3].x
-      value: -0.9073253
+      value: -0.8633007
       objectReference: {fileID: 0}
     - target: {fileID: 8287372638864472347, guid: 33bb46e6a19e96c40a888e50044c4f56, type: 3}
       propertyPath: m_Points.Array.data[3].y
-      value: 0.24135134
+      value: 0.19197771
       objectReference: {fileID: 0}
     - target: {fileID: 8287372638864472347, guid: 33bb46e6a19e96c40a888e50044c4f56, type: 3}
       propertyPath: m_Points.Array.data[4].x
@@ -2895,11 +2915,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8287372638864472347, guid: 33bb46e6a19e96c40a888e50044c4f56, type: 3}
       propertyPath: m_Points.Array.data[25].x
-      value: -1.366177
+      value: -1.3993235
       objectReference: {fileID: 0}
     - target: {fileID: 8287372638864472347, guid: 33bb46e6a19e96c40a888e50044c4f56, type: 3}
       propertyPath: m_Points.Array.data[25].y
-      value: -0.85741633
+      value: -0.81773514
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 33bb46e6a19e96c40a888e50044c4f56, type: 3}
@@ -3095,7 +3115,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1241996862}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -34.37596, y: -40.23495, z: -12.54}
+  m_LocalPosition: {x: -34.37618, y: -40.23495, z: -12.54}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -3801,7 +3821,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyPrefab: {fileID: 8287372638864472341, guid: 33bb46e6a19e96c40a888e50044c4f56, type: 3}
-  numberOfEnemies: 30
+  numberOfEnemies: 20
   newEnemyType: 0
 --- !u!4 &1587890177
 Transform:
