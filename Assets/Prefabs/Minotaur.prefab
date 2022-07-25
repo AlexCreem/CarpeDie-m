@@ -182,14 +182,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 049098badb9fd3a468cd8218605bccac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 3
+  speed: 4
   player: {fileID: 0}
   damage: 15
   health: 150
   rb: {fileID: 4118140128965212763}
   detectRange: 15
   chargeRange: 10
-  chargeSpeed: 8
+  chargeSpeed: 9
   chargeLength: 1
   chargeCooldown: 5
   attackTimer: 1

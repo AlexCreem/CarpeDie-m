@@ -10,7 +10,7 @@ public class Spawner : MonoBehaviour
     private void Awake()
     {
         for (int i = 0; i < numberOfEnemies; i++){
-            GameObject newEnemy = Instantiate(enemyPrefab, new Vector3(Random.Range(-40, 40), Random.Range(-40, 40), 0), Quaternion.identity);
+            GameObject newEnemy = Instantiate(enemyPrefab, new Vector3(Random.Range(-35, 40), Random.Range(-35, 40), 0), Quaternion.identity);
             newEnemy.GetComponent<Enemy>().enemyType = newEnemyType;
         }
     }
