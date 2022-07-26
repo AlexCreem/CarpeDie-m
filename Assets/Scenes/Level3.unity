@@ -3352,7 +3352,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyPrefab: {fileID: 7592614962374596344, guid: 5aa321854af98d843a09f46c316bed36, type: 3}
-  numberOfEnemies: 0
+  numberOfEnemies: 15
   newEnemyType: 0
 --- !u!4 &1210956201
 Transform:
