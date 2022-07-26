@@ -2029,7 +2029,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyPrefab: {fileID: 4118140128965212766, guid: c90224c3e3ca63747a0b05180205c77f, type: 3}
-  numberOfEnemies: 1
+  numberOfEnemies: 20
   newEnemyType: 2
 --- !u!4 &936225579
 Transform:
