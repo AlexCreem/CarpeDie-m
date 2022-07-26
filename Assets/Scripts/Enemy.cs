@@ -26,7 +26,12 @@ public class Enemy : MonoBehaviour
     {
         if (isBoss)
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+            if(SceneManager.GetActiveScene().buildIndex == 3){
+                SceneManager.LoadScene(6);
+            }else{
+                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+            }
+            
         }
         if (enemyType == 1){
             FindObjectOfType<AudioManager>().Play("WaspDeath");
