@@ -10,7 +10,7 @@ public class EnemyController : MonoBehaviour
     public Player player;
     public float damage;
     public float health;
-    private Vector2 direction;
+    private Vector3 direction;
     public Rigidbody2D rb;
     private bool lookingLeft;
 
@@ -81,7 +81,9 @@ public class EnemyController : MonoBehaviour
     }
     private void getMovement()
     {
-        direction = (target.transform.position - this.transform.position).normalized * speed;
+        direction = (target.transform.position - this.transform.position);
+        direction.z = 0;
+        direction = direction.normalized * speed;
         //anim.SetFloat("Speed", 1);
         //anim.SetFloat("Horizontal", direction.x);
         //probably going to have to not use animations on enemies because the pack didn't come with animations and there are many bugs trying to make our own
@@ -89,7 +91,8 @@ public class EnemyController : MonoBehaviour
     private void move()
     {
         //actually moves rigid body so called in fixed update
-        rb.MovePosition(rb.position + direction * Time.deltaTime);
+        //rb.MovePosition(rb.position + direction * Time.deltaTime * speed);
+        transform.position += direction * Time.deltaTime;
     }
     public Vector2 getDirection()
     {
